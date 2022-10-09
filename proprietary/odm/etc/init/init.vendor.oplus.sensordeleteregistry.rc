@@ -1,0 +1,3 @@
+on property:sys.boot_completed=1
+    rm /mnt/vendor/persist/sensors/registry/registry/lsm6dsm_0_platform.orient
+    rm /mnt/vendor/persist/sensors/registry/registry/mmc5603x_0_platform.orient

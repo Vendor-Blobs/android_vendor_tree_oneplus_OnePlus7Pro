@@ -1,0 +1,29 @@
+#<src>                                                 <mnt_point>            <type>  <mnt_flags and options>                            <fs_mgr_flags>
+loop@/system/euclid/odm.img                     /mnt/product/odm                  ext4     ro                                                   nofail
+overlay /odm   overlay  ro,lowerdir=/mnt/product/odm:/odm   nofail
+
+loop@/system/euclid/my_product.img              /mnt/product/my_product           ext4     ro                                                   nofail
+/mnt/product/my_product                         /my_product                       none     ro,bind                                              nofail
+loop@/system/euclid/my_company.img              /mnt/product/my_company           ext4     ro                                                   nofail
+/mnt/product/my_company                         /my_company                       none     ro,bind                                              nofail
+loop@/system/euclid/my_region.img               /mnt/product/my_region            ext4     ro                                                   nofail
+/mnt/product/my_region                          /my_region                        none     ro,bind                                              nofail
+loop@/system/euclid/my_carrier.img              /mnt/product/my_carrier           ext4     ro                                                   nofail
+/mnt/product/my_carrier                         /my_carrier                       none     ro,bind                                              nofail
+loop@/system/euclid/my_engineering.img          /mnt/product/my_engineering       ext4     ro                                                   nofail
+/mnt/product/my_engineering                     /my_engineering                   none     ro,bind                                              nofail
+loop@/vendor/euclid/my_manifest.img             /mnt/product/my_manifest          ext4     ro                                                   nofail
+/mnt/product/my_manifest                        /my_manifest                      none     ro,bind                                              nofail
+
+loop@/data/reserve/reserve.img              /mnt/product/my_reserve           ext4     ro                                                   nofail,latemount
+#/mnt/product/my_preload                         /my_preload                       none     ro,bind                                              nofail,latemount
+loop@/mnt/product/my_reserve/reserve/my_preload.img              /mnt/product/my_preload           ext4     ro                                                   nofail,latemount
+/mnt/product/my_preload                         /my_preload                       none     ro,bind                                              nofail,latemount
+loop@/mnt/product/my_reserve/reserve/my_stock.img                /mnt/product/my_stock             ext4     ro                                                   nofail,latemount
+/mnt/product/my_stock                           /my_stock                         none     ro,bind                                              nofail,latemount
+loop@/mnt/product/my_reserve/reserve/my_heytap.img               /mnt/product/my_heytap            ext4     ro                                                   nofail,latemount
+/mnt/product/my_heytap                          /my_heytap                        none     ro,bind                                              nofail,latemount
+
+#Harvey.lu@BSP.STABILITY.0, 2017/12/29, Add for new reserve partition
+/dev/block/by-name/op2                       /mnt/vendor/oplusreserve           ext4    noatime,nosuid,nodev,barrier=1,data=ordered          wait,check,first_stage_mount,nofail
+#endif

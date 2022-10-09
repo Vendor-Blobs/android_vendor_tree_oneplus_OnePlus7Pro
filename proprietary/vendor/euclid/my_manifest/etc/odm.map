@@ -1,0 +1,990 @@
+/odm/bin/bspFwUpdate 34-42
+/odm/bin/engineer_vendor_shell.sh 43
+/odm/bin/hw/android.hardware.drm@1.3-service.widevine 45-48
+/odm/bin/hw/android.hardware.nfc@1.2-service 49-56
+/odm/bin/hw/android.hardware.secure_elementnq330@1.1-service 57-67
+/odm/bin/hw/subsys_daemon 68-107
+/odm/bin/hw/vendor-oplus-hardware-engineer@1.0-service 108-148
+/odm/bin/hw/vendor-oplus-hardware-transfer@1.0-service 149-155
+/odm/bin/hw/vendor-oplus-hardware-transmessage@1.0-service 156-163
+/odm/bin/hw/vendor.dolby_v3_6.hardware.dms360@2.0-service 164-166
+/odm/bin/hw/vendor.oneplus.faceunlock.hal@2.0-service 167-175
+/odm/bin/hw/vendor.oplus.hardware.biometrics.face@1.0-service 176-229
+/odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service 230-260
+/odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service 261-266
+/odm/bin/hw/vendor.oplus.hardware.charger@1.0-service 267-288
+/odm/bin/hw/vendor.oplus.hardware.cryptoeng@1.0-service 289-303
+/odm/bin/hw/vendor.oplus.hardware.displaypanelfeature@1.0-service 304-322
+/odm/bin/hw/vendor.oplus.hardware.engcamera@1.0-service 323-325
+/odm/bin/hw/vendor.oplus.hardware.felica@1.0-service 326-332
+/odm/bin/hw/vendor.oplus.hardware.lmvibrator@1.0-service 333-343
+/odm/bin/hw/vendor.oplus.hardware.misc@1.0-service 344-350
+/odm/bin/hw/vendor.oplus.hardware.mmdisplayfeature@1.0-service 351-357
+/odm/bin/hw/vendor.oplus.hardware.motorcontrol@1.0-service 358-367
+/odm/bin/hw/vendor.oplus.hardware.nfc@1.0-service 368-386
+/odm/bin/hw/vendor.oplus.hardware.oplusSensor@1.0-service 387-425
+/odm/bin/hw/vendor.oplus.hardware.orms.ormsHalService@1.0-service 426-437
+/odm/bin/hw/vendor.oplus.hardware.performance@1.0-service 438-466
+/odm/bin/hw/vendor.oplus.hardware.stability.oplus_project@1.0-service 467-482
+/odm/bin/hw/vendor.oplus.hardware.thermalmntcfg@1.0-service 483-488
+/odm/bin/hw/vendor.oplus.hardware.touch@1.0-service 489-494
+/odm/bin/hw/vendor.oplus.hardware.vibrator-service 495-508
+/odm/bin/hw/vendor.oplus.hardware.wifi@1.1-service 509-569
+/odm/bin/init.oplus.fingerprints.sh 570
+/odm/bin/init.oplus.wifi.sh 571-576
+/odm/bin/init.subsys.sh 577
+/odm/bin/iw_odm 578-616
+/odm/bin/iwpriv 617-621
+/odm/bin/oplus_sensor_fb 622-624
+/odm/bin/oplus_sensor_test 625-627
+/odm/bin/oplus_sys_daemon 628-630
+/odm/bin/opnscr 631-666
+/odm/bin/phio 667-684
+/odm/bin/qmi-framework-tests/qmi_master_stats_service 686-688
+/odm/bin/rpmbengclient_test 689-691
+/odm/bin/self-init 692-699
+/odm/bin/tcpdump_vendor 700-1005
+/odm/bin/vendor.autochmod.sh 1006-1008
+/odm/bin/vl53l1_daemon_main 1009-1011
+/odm/bin/vl53l1_iotest 1012-1014
+/odm/bin/vl53l1_reg 1015-1017
+/odm/bin/wifi_diag 1018-1023
+/odm/bin/wifisar 1024
+/odm/build.prop 1025
+/odm/etc/18815/build.default.prop 1028
+/odm/etc/18815/build.gsi.prop 1029
+/odm/etc/NOTICE.xml.gz 1030-1034
+/odm/etc/ThermalServiceConfig/sys_thermal_config.xml 1036
+/odm/etc/acdbdata/Bluetooth_cal.acdb 1038-1068
+/odm/etc/acdbdata/Codec_cal.acdb 1069-1071
+/odm/etc/acdbdata/General_cal.acdb 1072-1078
+/odm/etc/acdbdata/Global_cal.acdb 1079-1088
+/odm/etc/acdbdata/Handset_cal.acdb 1089-1146 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1147-1225
+/odm/etc/acdbdata/Hdmi_cal.acdb 1226-1227
+/odm/etc/acdbdata/Headset_cal.acdb 1228-1291
+/odm/etc/acdbdata/Speaker_cal.acdb 1292-1402
+/odm/etc/audio_effects.xml 1403-1405
+/odm/etc/audio_io_policy.conf 1406-1407
+/odm/etc/audio_platform_info.xml 1408-1422
+/odm/etc/build.prop 1423
+/odm/etc/camera/fwk_config.json 1425
+/odm/etc/camera/vidhance_calibration 1426-1427
+/odm/etc/devices_config/devices_config.json 1429-1430
+/odm/etc/dolby/multimedia_dolby_dax_default.xml 1432-1491
+/odm/etc/flags.prop 1492
+/odm/etc/gps.conf 1493-1495
+/odm/etc/init/android.hardware.drm@1.3-service.widevine.rc 1497
+/odm/etc/init/android.hardware.nfc@1.2-service.rc 1498
+/odm/etc/init/android.hardware.secure_elementnq330@1.1-service.rc 1499
+/odm/etc/init/hw/init.oplus.wifi.rc 1501
+/odm/etc/init/init.network.rc 1502
+/odm/etc/init/init.odm.rc 1503
+/odm/etc/init/init.oplus.sensor.rc 1504
+/odm/etc/init/init.oppo.reserve.rc 1505-1506
+/odm/etc/init/init.pn8x.nfc.rc 1507
+/odm/etc/init/init.pn8x.se.rc 1508
+/odm/etc/init/init.vendor.oplus.sensordeleteregistry.rc 1509
+/odm/etc/init/olog_vendor.rc 1510
+/odm/etc/init/self-init.rc 1511
+/odm/etc/init/subsys_daemon.rc 1512
+/odm/etc/init/vendor-oplus-hardware-engineer@1.0-service.rc 1513
+/odm/etc/init/vendor-oplus-hardware-transfer@1.0-service.rc 1514
+/odm/etc/init/vendor-oplus-hardware-transmessage@1.0-service.rc 1515
+/odm/etc/init/vendor.dolby_v3_6.hardware.dms360@2.0-service.rc 1516
+/odm/etc/init/vendor.oneplus.faceunlock.hal@2.0-service.rc 1517
+/odm/etc/init/vendor.oplus.hardware.biometrics.face@1.0-service.rc 1518
+/odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc 1519
+/odm/etc/init/vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service.rc 1520
+/odm/etc/init/vendor.oplus.hardware.charger@1.0-service.rc 1521
+/odm/etc/init/vendor.oplus.hardware.cryptoeng@1.0-service_FDE.rc 1522
+/odm/etc/init/vendor.oplus.hardware.displaypanelfeature@1.0-service.rc 1523
+/odm/etc/init/vendor.oplus.hardware.engcamera@1.0-service.rc 1524
+/odm/etc/init/vendor.oplus.hardware.felica@1.0-service.rc 1525
+/odm/etc/init/vendor.oplus.hardware.lmvibrator@1.0-service.rc 1526
+/odm/etc/init/vendor.oplus.hardware.misc@1.0-service.rc 1527
+/odm/etc/init/vendor.oplus.hardware.mmdisplayfeature@1.0-service.rc 1528
+/odm/etc/init/vendor.oplus.hardware.motorcontrol@1.0-service.rc 1529
+/odm/etc/init/vendor.oplus.hardware.nfc@1.0-service.rc 1530
+/odm/etc/init/vendor.oplus.hardware.oplusSensor@1.0-service.rc 1531
+/odm/etc/init/vendor.oplus.hardware.orms.ormsHalService@1.0-service.rc 1532-1533
+/odm/etc/init/vendor.oplus.hardware.performance@1.0-service.rc 1534
+/odm/etc/init/vendor.oplus.hardware.stability.oplus_project@1.0-service.rc 1535
+/odm/etc/init/vendor.oplus.hardware.thermalmntcfg@1.0-service.rc 1536
+/odm/etc/init/vendor.oplus.hardware.touch@1.0-service.rc 1537
+/odm/etc/init/vendor.oplus.hardware.wifi@1.1-service-qcom.rc 1538
+/odm/etc/init/vendor_engineermode.rc 1539
+/odm/etc/init/vibrator-default.rc 1540
+/odm/etc/init/vl53l1.rc 1541
+/odm/etc/izat.conf 1542-1543
+/odm/etc/libese-nxp.conf 1544
+/odm/etc/libnfc-nci.conf 1545-1546
+/odm/etc/libnfc-nxp-pnscr.conf 1547-1552
+/odm/etc/media_codecs_c2.xml 1553
+/odm/etc/media_codecs_dolby_audio.xml 1554
+/odm/etc/media_codecs_ffmpeg.xml 1555
+/odm/etc/media_codecs_odm.xml 1556
+/odm/etc/media_codecs_vendor_oplus.xml 1557
+/odm/etc/media_profiles_V1_0.xml 1558-1565
+/odm/etc/mixer_paths.xml 1566-1608
+/odm/etc/nfc/libese-nxp.conf_18501 1544
+/odm/etc/nfc/libnfc-mtp-SN100.conf_19081 1610-1623
+/odm/etc/nfc/libnfc-nci.conf_18115 1545-1546
+/odm/etc/nfc/libnfc-nci.conf_18501 1545-1546
+/odm/etc/nfc/libnfc-nci.conf_18817 1624-1625
+/odm/etc/nfc/libnfc-nci.conf_18821 1624-1625
+/odm/etc/nfc/libnfc-nci.conf_18853 1624-1625
+/odm/etc/nfc/libnfc-nci.conf_18857 1624-1625
+/odm/etc/nfc/libnfc-nci.conf_18865 1624-1625
+/odm/etc/nfc/libnfc-nci.conf_19081 1626-1627
+/odm/etc/nfc/libnfc-nci.conf_19801 1624-1625
+/odm/etc/nfc/libnfc-nci.conf_19831 1624-1625
+/odm/etc/nfc/libnfc-nci.conf_19850 1624-1625
+/odm/etc/nfc/libnfc-nxp.conf_18115 1628-1632
+/odm/etc/nfc/libnfc-nxp.conf_18501 1628 1633 1630-1631 1634
+/odm/etc/nfc/libnfc-nxp.conf_18817 1635-1639
+/odm/etc/nfc/libnfc-nxp.conf_18821 1635 1640-1643
+/odm/etc/nfc/libnfc-nxp.conf_18853 1635-1639
+/odm/etc/nfc/libnfc-nxp.conf_18857 1635 1640-1643
+/odm/etc/nfc/libnfc-nxp.conf_18865 1635 1640-1643
+/odm/etc/nfc/libnfc-nxp.conf_19801 1635 1640-1643
+/odm/etc/nfc/libnfc-nxp.conf_19831 1635-1639
+/odm/etc/nfc/libnfc-nxp.conf_19850 1635-1639
+/odm/etc/nfc/libnfc-nxp_JP.conf_18501 1644-1648
+/odm/etc/nfc/libnfc-nxp_RF.conf_18115 1649-1653
+/odm/etc/nfc/libnfc-nxp_RF.conf_18501 1649-1653
+/odm/etc/nfc/libnfc-nxp_RF.conf_18817 1654-1655
+/odm/etc/nfc/libnfc-nxp_RF.conf_18821 1656-1657
+/odm/etc/nfc/libnfc-nxp_RF.conf_18853 1658-1659
+/odm/etc/nfc/libnfc-nxp_RF.conf_18857 1658 1657
+/odm/etc/nfc/libnfc-nxp_RF.conf_18865 1660-1661
+/odm/etc/nfc/libnfc-nxp_RF.conf_19801 1662-1663
+/odm/etc/nfc/libnfc-nxp_RF.conf_19831 1664 1655
+/odm/etc/nfc/libnfc-nxp_RF.conf_19850 1660 1665
+/odm/etc/nfc/libnfc-nxp_RF_JP.conf_18501 1649-1653
+/odm/etc/nfc/libnfc-nxp_RF_noeSE.conf_18821 1654-1655
+/odm/etc/nfc/libnfc-nxp_RF_noeSE.conf_18857 1658-1659
+/odm/etc/nfc/libnfc-nxp_RF_noeSE.conf_18865 1660 1665
+/odm/etc/nfc/libnfc-nxp_RF_noeSE.conf_19801 1664 1655
+/odm/etc/nfc/libnfc-nxp_noeSE.conf_18821 1635-1639
+/odm/etc/nfc/libnfc-nxp_noeSE.conf_18857 1635-1639
+/odm/etc/nfc/libnfc-nxp_noeSE.conf_18865 1635-1639
+/odm/etc/nfc/libnfc-nxp_noeSE.conf_19801 1635-1639
+/odm/etc/nfc/libnfc_accesscard_config.conf_18115 1666
+/odm/etc/nfc/libnfc_accesscard_config.conf_19081 1667
+/odm/etc/nfc/libnfc_beijing_config.conf_18115 1668
+/odm/etc/nfc/libnfc_beijing_config.conf_18817 1669
+/odm/etc/nfc/libnfc_beijing_config.conf_18821 1669
+/odm/etc/nfc/libnfc_beijing_config.conf_18853 1669
+/odm/etc/nfc/libnfc_beijing_config.conf_18857 1669
+/odm/etc/nfc/libnfc_beijing_config.conf_18865 1670-1671
+/odm/etc/nfc/libnfc_beijing_config.conf_19081 1672-1673
+/odm/etc/nfc/libnfc_beijing_config.conf_19801 1674
+/odm/etc/nfc/libnfc_beijing_config.conf_19831 1674
+/odm/etc/nfc/libnfc_beijing_config.conf_19850 1670-1671
+/odm/etc/nfc/libnfc_changan_config.conf_18817 1675
+/odm/etc/nfc/libnfc_changan_config.conf_18821 1675
+/odm/etc/nfc/libnfc_changan_config.conf_18853 1675
+/odm/etc/nfc/libnfc_changan_config.conf_18857 1675
+/odm/etc/nfc/libnfc_changan_config.conf_18865 1676 1671
+/odm/etc/nfc/libnfc_changan_config.conf_19801 1675
+/odm/etc/nfc/libnfc_changan_config.conf_19831 1675
+/odm/etc/nfc/libnfc_changan_config.conf_19850 1676 1671
+/odm/etc/nfc/libnfc_default_config.conf_18115 1677
+/odm/etc/nfc/libnfc_default_config.conf_18817 1678
+/odm/etc/nfc/libnfc_default_config.conf_18821 1678
+/odm/etc/nfc/libnfc_default_config.conf_18853 1678
+/odm/etc/nfc/libnfc_default_config.conf_18857 1678
+/odm/etc/nfc/libnfc_default_config.conf_18865 1679-1680
+/odm/etc/nfc/libnfc_default_config.conf_19081 1681-1682
+/odm/etc/nfc/libnfc_default_config.conf_19801 1683-1684
+/odm/etc/nfc/libnfc_default_config.conf_19831 1685 1684
+/odm/etc/nfc/libnfc_default_config.conf_19850 1686-1687
+/odm/etc/nfc/libnfc_guangzhou_config.conf_18115 1688
+/odm/etc/nfc/libnfc_guangzhou_config.conf_18817 1689
+/odm/etc/nfc/libnfc_guangzhou_config.conf_18821 1689
+/odm/etc/nfc/libnfc_guangzhou_config.conf_18853 1689
+/odm/etc/nfc/libnfc_guangzhou_config.conf_18857 1689
+/odm/etc/nfc/libnfc_guangzhou_config.conf_18865 1690-1691
+/odm/etc/nfc/libnfc_guangzhou_config.conf_19081 1692
+/odm/etc/nfc/libnfc_guangzhou_config.conf_19801 1693
+/odm/etc/nfc/libnfc_guangzhou_config.conf_19831 1693
+/odm/etc/nfc/libnfc_guangzhou_config.conf_19850 1690-1691
+/odm/etc/nfc/libnfc_nanning_config.conf_19081 1694-1695
+/odm/etc/nfc/libnfc_shanghai_config.conf_19081 1696
+/odm/etc/nfc/libnfc_shenzhen_config.conf_18115 1697
+/odm/etc/nfc/libnfc_shenzhen_config.conf_18817 1698
+/odm/etc/nfc/libnfc_shenzhen_config.conf_18821 1698
+/odm/etc/nfc/libnfc_shenzhen_config.conf_18853 1698
+/odm/etc/nfc/libnfc_shenzhen_config.conf_18857 1698
+/odm/etc/nfc/libnfc_shenzhen_config.conf_18865 1699-1700
+/odm/etc/nfc/libnfc_shenzhen_config.conf_19081 1701
+/odm/etc/nfc/libnfc_shenzhen_config.conf_19801 1702
+/odm/etc/nfc/libnfc_shenzhen_config.conf_19831 1702
+/odm/etc/nfc/libnfc_shenzhen_config.conf_19850 1699-1700
+/odm/etc/nfc/libnfc_suzhou_config.conf_18817 1703
+/odm/etc/nfc/libnfc_suzhou_config.conf_18821 1703
+/odm/etc/nfc/libnfc_suzhou_config.conf_18853 1703
+/odm/etc/nfc/libnfc_suzhou_config.conf_18857 1703
+/odm/etc/nfc/libnfc_suzhou_config.conf_18865 1704-1705
+/odm/etc/nfc/libnfc_suzhou_config.conf_19081 1706
+/odm/etc/nfc/libnfc_suzhou_config.conf_19801 1707
+/odm/etc/nfc/libnfc_suzhou_config.conf_19831 1707
+/odm/etc/nfc/libnfc_suzhou_config.conf_19850 1704-1705
+/odm/etc/nfc/libnfc_wuhan_config.conf_18817 1708
+/odm/etc/nfc/libnfc_wuhan_config.conf_18821 1708
+/odm/etc/nfc/nfc_conf_ref 1719
+/odm/etc/nfc/libnfc_wuhan_config.conf_18853 1708
+/odm/etc/nfc/libnfc_wuhan_config.conf_18857 1708
+/odm/etc/nfc/libnfc_wuhan_config.conf_18865 1710-1711
+/odm/etc/nfc/libnfc_wuhan_config.conf_19801 1712
+/odm/etc/nfc/libnfc_wuhan_config.conf_19831 1712
+/odm/etc/nfc/libnfc_wuhan_config.conf_19850 1710-1711
+/odm/etc/nfc/libnfc_xiamen_config.conf_19081 1713
+/odm/etc/nfc/libnfc_zhengzhou_config.conf_18817 1714
+/odm/etc/nfc/libnfc_zhengzhou_config.conf_18821 1714
+/odm/etc/nfc/libnfc_zhengzhou_config.conf_18853 1714
+/odm/etc/nfc/libnfc_zhengzhou_config.conf_18857 1714
+/odm/etc/nfc/libnfc_zhengzhou_config.conf_18865 1715-1716
+/odm/etc/nfc/libnfc_zhengzhou_config.conf_19081 1717-1718
+/odm/etc/nfc/libnfc_zhengzhou_config.conf_19801 1714
+/odm/etc/nfc/libnfc_zhengzhou_config.conf_19831 1714
+/odm/etc/nfc/libnfc_zhengzhou_config.conf_19850 1715-1716
+/odm/etc/nfc/nfc_fw_ref 1720
+/odm/etc/nfc/sn100u.bin_sn100t_fw_01_10_53 1721-1770
+/odm/etc/nfc/sn100u.bin_sn100t_fw_01_10_57 1771-1820
+/odm/etc/nfc/st21nfc_fw.bin_st21h 1821-1872
+/odm/etc/nfc/st21nfc_fw7.bin_st21h 1873-1924
+/odm/etc/normalize/flags.prop 1926
+/odm/etc/oplus.fstab 1927
+/odm/etc/orms/orms_core_config.xml 1929-1954
+/odm/etc/orms/orms_permission_config.xml 1955
+/odm/etc/permissions/android.hardware.sensor.proximity.xml 1957
+/odm/etc/permissions/com.oplus.nfc_feature.xml 1958
+/odm/etc/permissions/com.oppo.features_allnet_common_18815.xml 1959
+/odm/etc/permissions/com.qcom.network.features.xml 1960
+/odm/etc/permissions/vendor-oplus-hardware-biometrics-fingerprintpay.xml 1961
+/odm/etc/permissions/vendor-oplus-hardware-charger.xml 1962
+/odm/etc/permissions/vendor-oplus-hardware-cryptoeng.xml 1963
+/odm/etc/permissions/vendor-oplus-hardware-displaypanelfeature.xml 1964
+/odm/etc/permissions/vendor-oplus-hardware-engineer.xml 1965
+/odm/etc/permissions/vendor-oplus-hardware-misc.xml 1966
+/odm/etc/permissions/vendor-oplus-hardware-oplusSensor.xml 1967
+/odm/etc/permissions/vendor-oplus-hardware-touch.xml 1968
+/odm/etc/permissions/vendor-oplus-hardware-transfer.xml 1969
+/odm/etc/permissions/vendor-oplus-hardware-transmessage.xml 1970
+/odm/etc/power_profile/power_monitor_config.xml 1972
+/odm/etc/power_profile/power_profile.xml 1973-1976
+/odm/etc/sap.conf 1977-1978
+/odm/etc/selinux/precompiled_sepolicy 1980-2257
+/odm/etc/selinux/precompiled_sepolicy.plat_sepolicy_and_mapping.sha256 2258
+/odm/etc/selinux/precompiled_sepolicy.product_sepolicy_and_mapping.sha256 2259
+/odm/etc/selinux/precompiled_sepolicy.system_ext_sepolicy_and_mapping.sha256 2260
+/odm/etc/selinux/precompiled_sepolicy_debug 2261-2539
+/odm/etc/selinux/precompiled_sepolicy_debug.plat_sepolicy_and_mapping.sha256 2540
+/odm/etc/selinux/precompiled_sepolicy_debug.product_sepolicy_and_mapping.sha256 2541
+/odm/etc/selinux/precompiled_sepolicy_debug.system_ext_sepolicy_and_mapping.sha256 2542
+/odm/etc/sensor/sensor_config.json 2544
+/odm/etc/sn100u_bootup.pnscr 2545-2546
+/odm/etc/sn100u_ese_disableIso.pnscr 2547-2548
+/odm/etc/sn100u_ese_disableIsoRead.pnscr 2549-2550
+/odm/etc/sn100u_nfcon.pnscr 2551
+/odm/etc/sn100u_pnx_chr.pnscr 2552
+/odm/etc/sn100u_pnx_cui.pnscr 2553
+/odm/etc/sn100u_pnx_ese_3.pnscr 2554
+/odm/etc/sn100u_pnx_ese_aclog.pnscr 2555-2556
+/odm/etc/sn100u_pnx_ese_cplc.pnscr 2557-2558
+/odm/etc/sn100u_pnx_ese_fabkey.pnscr 2555 2559
+/odm/etc/sn100u_pnx_ese_free.pnscr 2560-2561
+/odm/etc/sn100u_pnx_ese_keyset.pnscr 2562-2563
+/odm/etc/sn100u_pnx_ese_sn.pnscr 2555 2564
+/odm/etc/sn100u_pnx_ndi.pnscr 2565
+/odm/etc/sn100u_pnx_pcv.pnscr 2566
+/odm/etc/sn100u_pnx_spc.pnscr 2567
+/odm/etc/sn100u_pnx_sst.pnscr 2568
+/odm/etc/sound_trigger_mixer_paths.xml 2569-2574
+/odm/etc/sound_trigger_platform_info.xml 2575-2580
+/odm/etc/temperature_profile/sys_high_temp_protect_OPPO_18815.xml 2582
+/odm/etc/temperature_profile/sys_thermal_control_config.xml 2583-2591
+/odm/etc/tunings.txt 2592
+/odm/etc/ueventd.reserve.rc 2593
+/odm/etc/vintf/manifest/device_manifest_subsys.xml 2596
+/odm/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml 2597
+/odm/etc/vintf/manifest/manifest_dax_dolby_v3_6.xml 2598
+/odm/etc/vintf/manifest/manifest_engineer.xml 2599
+/odm/etc/vintf/manifest/manifest_nfc_nq330.xml 2600
+/odm/etc/vintf/manifest/manifest_opfaceunlock.xml 2601
+/odm/etc/vintf/manifest/manifest_oplusSensor.xml 2602
+/odm/etc/vintf/manifest/manifest_oplus_charger.xml 2603
+/odm/etc/vintf/manifest/manifest_oplus_cryptoeng.xml 2604
+/odm/etc/vintf/manifest/manifest_oplus_displaypanelfeature.xml 2605
+/odm/etc/vintf/manifest/manifest_oplus_engcamera.xml 2606
+/odm/etc/vintf/manifest/manifest_oplus_felica.xml 2607
+/odm/etc/vintf/manifest/manifest_oplus_fingerprint.xml 2608
+/odm/etc/vintf/manifest/manifest_oplus_ifaa.xml 2609
+/odm/etc/vintf/manifest/manifest_oplus_lmvibrator.xml 2610
+/odm/etc/vintf/manifest/manifest_oplus_misc.xml 2611
+/odm/etc/vintf/manifest/manifest_oplus_mmdisplayfeature.xml 2612
+/odm/etc/vintf/manifest/manifest_oplus_motorcontrol.xml 2613
+/odm/etc/vintf/manifest/manifest_oplus_nfc.xml 2614
+/odm/etc/vintf/manifest/manifest_oplus_orms.xml 2615
+/odm/etc/vintf/manifest/manifest_oplus_performance.xml 2616
+/odm/etc/vintf/manifest/manifest_oplus_stability_project.xml 2617
+/odm/etc/vintf/manifest/manifest_oplus_thermalmntcfg.xml 2618
+/odm/etc/vintf/manifest/manifest_oplus_touch.xml 2619
+/odm/etc/vintf/manifest/manifest_transfer.xml 2620
+/odm/etc/vintf/manifest/manifest_transmessage.xml 2621
+/odm/etc/vintf/manifest/oplus_wifi_service_device.xml 2622
+/odm/etc/vintf/manifest/vibrator-default.xml 2623
+/odm/etc/vintf/manifest_dsds.xml 2624
+/odm/etc/vintf/manifest_dsds_noese.xml 2625
+/odm/etc/vintf/manifest_ssss.xml 2626
+/odm/etc/vintf/manifest_ssss_noese.xml 2627
+/odm/etc/vintf/telephony_manifest_dsds.xml 2628-2629
+/odm/etc/vintf/telephony_manifest_ssss.xml 2630-2631
+/odm/etc/wifi/bdwlan.b0a 2632-2638
+/odm/etc/wifi/bdwlan.b0i 2639-2641 2635 2642 2637-2638
+/odm/etc/wifi/bdwlan.b1a 2643-2644 2634-2635 2642 2637-2638
+/odm/etc/wifi/bdwlan0.b0a 2645 2633-2638
+/odm/etc/wifi/bdwlan0.b0i 2646 2640-2641 2635 2642 2637-2638
+/odm/etc/wifi/bdwlan0.b1a 2648 2644 2634-2635 2642 2637-2638
+/odm/etc/wifi/bdwlan1.b0a 2650 2633-2638
+/odm/etc/wifi/bdwlan1.b0i 2651 2640-2641 2635 2642 2637-2638
+/odm/etc/wifi/bdwlan1.b1a 2653 2644 2634-2635 2642 2637-2638
+/odm/etc/wifi/bin_version 2655
+/odm/etc/wifi/bin_version_realme 2656
+/odm/etc/wifi/cnss_diag.conf 2657
+/odm/etc/wifi/init.project.wifi.sh 2658
+/odm/etc/wifi/sar-vendor-cmd.xml 2659
+/odm/etc/wifi/wififtmtest 2660
+/odm/etc/wifi/wifihwftm 2661
+/odm/etc/wifi/wifisar.cfg 2662
+/odm/etc/wifi/wifistopftmtest 2663
+/odm/firmware/aw8697_About_School_RTP_17.bin 2664-2665 0 2666-2677 0 2678-2680 0 2681-2712 0 2713 2715
+/odm/firmware/aw8697_Appear_channel_RTP_oplusos7_123.bin 2716
+/odm/firmware/aw8697_Bliss_RTP_18.bin 0 2717-2719 0 2720-2728 0 0 2729-2749 0 0 0 0 0 2750-2760 0 2761 2763-2768 0 2769-2784 0 2785-2815 0 2816-2817 0 2818-2823 0 2824-2843 0 2844-2845 0 2846-2879
+/odm/firmware/aw8697_Bliss_RTP_oplusos7_138.bin 2880-2884 0 2885 0 0 0 0 2886-2888 0 2889-2890 0 0 0 0 2891 0 2893-2896 0 0 0 0 0 2897-2899 0 2900-2906 0 0 0 2907-2908 0 2909-2911 0 2912-2913 0 2914 0 2915-2917 0 2918-2920 0 2921-2932 0 2933-2939 0 0 2940-2942 0 2943-2945 0 2946 0 2947-2952 0 2953-2955 0 2956-2958 0 2959-2962 0 2963-2965 0 0 0 0 2966-2967 0 0 2968-2970 0 0 0 2971-2972 0 0 0 2973-2974 0 0 0 2975-2976
+/odm/firmware/aw8697_Bright_channel_RTP_6.bin 2977-2987
+/odm/firmware/aw8697_Bright_channel_RTP_oplusos7_128.bin 2988
+/odm/firmware/aw8697_Childhood_RTP_19.bin 0 2989 0 2990-2991 0 2992-2996 0 2997-3004 0 3005 3007-3011 0 0 0 3012-3018 0 0 3019 0 3020-3029 0 3030-3031 0 3032-3042 0 3043-3044 0 3045-3048 0 3049-3051 0 3052-3054 0 3055-3066 0 3067-3072
+/odm/firmware/aw8697_Classical_ring_RTP_oplusos7_135.bin 3073-3078
+/odm/firmware/aw8697_Commuting_RTP_20.bin 3079-3087 0 3088-3091 0 3092 0 3093-3094 0 3095 3097 0 3098-3126 0 3127-3128 0 3129-3149 0 3150-3156 0 3157-3158 0 3159-3187 0 3188-3189 0 3190-3202 0 3203-3212
+/odm/firmware/aw8697_Dream_RTP_21.bin 0 3213-3215 0 0 3216-3217 0 3218 0 0 3219-3221 0 0 3222 3224 0 3225 0 0 3226-3227 0 3228-3231 0 0 0 3232-3237 0 3238-3244 0 0 3245 0 0 3246-3247 0 3248-3250 0 0 3251 0 0 3252-3253 0 3254-3256 0 0 3257 0 0 3258-3263 0 3264-3267 0 3268 0 0 0 0 0 0 3269-3282
+/odm/firmware/aw8697_Dream_RTP_oplusos7_139.bin 0 3283-3288 0 0 3289-3290 0 3291-3294 0 3295-3298 0 3299 3301-3305 0 0 0 0 0 3306-3311 0 0 3312-3313 0 3314-3316 0 0 0 0 0 3317-3318 0 3319-3321 0 3322-3323 0 0 3324-3329 0 0 0 0 3330-3334 0 3335-3340 0 0 0 0 0 0 0 0 3341-3349
+/odm/firmware/aw8697_Firefly_RTP_22.bin 3350-3352 0 3353 0 3354-3356 0 3357-3358 0 3359 0 3361-3378 0 0 0 0 3379-3380 0 3381-3382 0 3383-3389 0 3390-3391 0 0 3392
+/odm/firmware/aw8697_Fun_channel_RTP_7.bin 3393-3395
+/odm/firmware/aw8697_Fun_channel_RTP_oplusos7_129.bin 3396-3398
+/odm/firmware/aw8697_Gathering_RTP_23.bin 3399-3411 0 3412-3423 0 3424-3428 0 3429-3434 0 3435 3437-3438 0 3439-3462 0 3463-3470 0 3471-3473 0 3474 0 3475-3480 0 3481-3486 0 0 3487-3491
+/odm/firmware/aw8697_Gaze_RTP_24.bin 0 3492-3494 0 3495-3496 0 3497-3499 0 3500-3502 0 3503 0 3505-3508 0 3509-3512 0 0 0 0 3513-3516 0 3517 0 3518-3531 0 3532-3534 0 3535-3537
+/odm/firmware/aw8697_Glittering_channel_RTP_8.bin 3538-3549
+/odm/firmware/aw8697_Glittering_channel_RTP_oplusos7_130.bin 3550-3552 0 3553
+/odm/firmware/aw8697_Granules_channel_RTP_9.bin 3554-3558
+/odm/firmware/aw8697_Harp_channel_RTP_10.bin 3559-3567
+/odm/firmware/aw8697_Harp_channel_RTP_oplusos7_131.bin 3568-3570
+/odm/firmware/aw8697_Hearty_channel_RTP_1.bin 3571 0 3572-3573
+/odm/firmware/aw8697_Impression_channel_RTP_11.bin 3574-3578
+/odm/firmware/aw8697_Ingenious_channel_RTP_12.bin 3579-3581
+/odm/firmware/aw8697_Instant_channel_RTP_2.bin 3582-3585
+/odm/firmware/aw8697_Joy_channel_RTP_13.bin 3586-3589
+/odm/firmware/aw8697_Joy_channel_RTP_oplusos7_141.bin 0 0 3590 0 3591-3593 0 3594 0 3595-3600 0 0 0 3601 0 3603-3604 0 3605 0 0 3606 0 0 3607 0 3608 0 0 0 3609-3610 0 3611-3612 0 3613 0 3614 0 3615-3616 0 0 3617 0 0 0 3618 0 0 3619 0 3620 0 3621-3624 0 0 0 3625 0 0 0 3626 0 3627-3628 0 3629 0 3630 0 3631 0 0 3632-3633 0 3634-3635 0 3636 0 3637 0 3638 0 0 3639-3644
+/odm/firmware/aw8697_Lakeside_RTP_25.bin 0 3645-3656 0 0 0 0 0 0 0 0 0 3657-3668 0 0 0 0 0 0 0 0 0 3669-3685 0 0 0 0 3686-3700
+/odm/firmware/aw8697_Lifestyle_RTP_26.bin 3701-3720 0 3721-3787
+/odm/firmware/aw8697_Long_for_RTP_oplusos7_136.bin 0 3788-3791 0 3792 0 0 3793-3795 0 0 3796-3797 0 3798 0 3800-3801 0 3802-3807 0 3808 0 3809-3810 0 0 3811-3813 0 3814-3815 0 0 3816-3817 0 3818-3819 0 3820-3823 0 3824-3825 0 3826 0 0 3827 0 3828-3829 0 3830-3831 0 3832 0 3833 0 0 3834-3837 0 3838-3840 0 0 3841 0 0 3842-3844 0 3845-3846 0 0 3847-3851 0 3852 0 3853-3855 0 3856 0 3857 0 0 3858 0 3859-3860 0 3861-3862 0 3863 0 3864-3867 0 3868-3869 0 3870-3873 0 3874-3875 0 3876-3878 0 3879-3881 0 3882-3883 0 3884 0 3885
+/odm/firmware/aw8697_Memories_RTP_27.bin 3886 0 3887-3888 0 3889-3896 0 3897 0 3527 0 0 3899 0 3900-3901 0 3902-3906 0 3907 0 0 3908 0 3909-3910 0 3911-3915 0 3916-3917 0 3918 0 3919 0 3920-3927 0 3928-3933 0 3934-3939 0 3940-3952 0 3953-3965 0 0 3966-3977
+/odm/firmware/aw8697_Messy_RTP_28.bin 3978-3980 0 3981-3985 0 3986-3991 0 3992-4035 0 4036 4038-4048 0 4049 0 4050-4054
+/odm/firmware/aw8697_Miss_RTP_oplusos7_124.bin 4055-4062 0 4063-4066 0 4067 0 4068-4080 0 4081 0 4083 0 4084-4091 0 4092-4096 0 4097 0 4098-4110 0 4111 0 4112 0 4113 0 4114 0 4115 0 0 4116
+/odm/firmware/aw8697_Music_channel_RTP_3.bin 4117-4118 0 4119-4120 0 4121-4123
+/odm/firmware/aw8697_Music_channel_RTP_oplusos7_125.bin 4124-4125
+/odm/firmware/aw8697_Night_RTP_29.bin 4126-4127 0 4128-4135 0 4136-4139 0 4140-4141 0 4142 4144-4145 0 4146-4149 0 4150-4151 0 4152-4154 0 4155-4157 0 4158-4162 0 4163-4164 0 4165
+/odm/firmware/aw8697_Overtone_channel_RTP_14.bin 4166-4168 0 4169-4172
+/odm/firmware/aw8697_Overtone_channel_RTP_oplusos7_132.bin 4173-4175
+/odm/firmware/aw8697_Passionate_Dance_RTP_30.bin 4176-4181 0 4182 0 4183-4197 0 4198 0 4199 4201-4212 0 4213 0 4214-4225 0 4226 3916 4227-4239 0 4240 0 4241-4255 0 4256-4261 0 4262
+/odm/firmware/aw8697_Percussion_channel_RTP_4.bin 4263-4268
+/odm/firmware/aw8697_Percussion_channel_RTP_coloros7_26.bin 4269
+/odm/firmware/aw8697_Percussion_channel_RTP_oplusos7_126.bin 4269
+/odm/firmware/aw8697_Playground_RTP_31.bin 4270-4273 0 0 4274-4275 0 4276-4278 0 4279 0 4280 4282 0 0 0 0 0 0 0 0 0 0 4283 0 4284 0 4285 0 4286 0 4287-4288 0 0 4289-4290 0 4291 0 4292 0 0 4293-4301 0 4302-4303 0 0 4304-4305 0 4306 0 4307 0 4308 0 4309-4310 0 0 4311-4318
+/odm/firmware/aw8697_Pure_RTP_49.bin 4319-4324 0 4325 0 4326 0 4327-4329 0 4330 4332-4333 0 0 4334 0 0 0 0 0 0 0 0 0 0 0 4335-4342 0 0 4343-4351 0 4352
+/odm/firmware/aw8697_Receive_channel_RTP_15.bin 4353-4358 0 4359-4362 0 4363 0 4364
+/odm/firmware/aw8697_Relax_RTP_32.bin 4365-4369 0 4370-4371 0 4372-4376 0 4377-4378 0 4379 4381-4387 0 4388 0 4389 0 4390-4396 0 4397-4399 3856 4400-4403
+/odm/firmware/aw8697_Relax_RTP_oplusos7_140.bin 4404-4406 0 4407 0 4408 0 0 0 4409-4411 0 4412 0 4414 0 0 0 4415-4417 0 0 4418 0 4419-4422 0 4423-4425 0 4426 0 0 0 4427 0 4428-4430 0 4431 0 0 0 4432-4433 0 4434-4435 0 4436-4440 0 0 4441-4448 0 4449-4451 0 4452-4453 0 0 4454 0 4455-4457 0 4458-4459 0 0 4460 0 0 4461-4463 0 4464-4468 0 4469-4471 0 4472 0 4473-4478 0 0 4479 0 0 4480 0 4481-4483 0 0 3856 0 0 0 4484 0 4485 0 0 4486-4487 0 4488 0 4489 0 4490 0 0 4491-4492 0 4493-4495 0 4496-4497 0 4498-4499
+/odm/firmware/aw8697_Reminiscence_RTP_33.bin 4500-4502 0 4503 0 4504-4507 0 4508-4509 0 0 4510 0 4512-4513 0 4514-4518 0 4519-4525 0 4526 0 0 4527-4528 0 4529-4533 0 4534-4537 0 4538-4539 0 0 4540 0 4284 0 0 4541-4543 0 4544 0 4545-4548 0 4549-4550 0 3835 4551 0 4552-4555 0 0 4556
+/odm/firmware/aw8697_Ripple_channel_RTP_5.bin 4557-4564
+/odm/firmware/aw8697_Ripple_channel_RTP_oplusos7_127.bin 4565-4567
+/odm/firmware/aw8697_Romantic_RTP_oplusos7_137.bin 4568-4572 0 4573-4574 0 3038 2883 4575 0 4577-4590 0 4591 0 4592-4594 0 4595-4615 0 4616 0 4617-4629 4396 3882 2885 4630-4631 0 4632 0 4633-4634 4585 4635-4663 4422 4471 4664-4676 0 4677-4686 0 4687-4688
+/odm/firmware/aw8697_Scenic_RTP_121.bin 4689-4820 0 4821-4860
+/odm/firmware/aw8697_Seine_past_RTP_oplusos7_134.bin 4861-4862 0 0 4863 0 0 4864-4866 0 4867-4869 0 4870 0 0 4473 4872 0 4873-4876 0 4877-4878 0 4879 0 2921 4880-4883 0 4884-4885 0 4886 0 4887-4888 0 4889-4890 0 4891-4893 0 4894-4900 0 4901 0 4902-4904 0 4905-4906 0 3637 0 4907 0 4908-4909 0 4910-4915 0 4916-4923 0 4924 0 0 4925-4928 0 4929-4932 0 0 0 4933-4938 0 4939 0 4940 0 4941-4942 0 4943-4944 0 4945-4948 0 4949 0 4950 0 4951 0 4952-4953 0 0 4954 0 0 4955 0 4956-4957 0 4958
+/odm/firmware/aw8697_Silence_From_Afar_RTP_34.bin 0 0 4959-4961 0 0 4962-4964 0 4965 0 0 4966-4975 0 0 4976 4978-4980 0 0 4981-4982 0 4983-4990 0 4991-4992 0 4993-4995 0 4996-5000 0 5001-5004 0 0 5005-5009 0 0 5010-5014 0 5015-5019 0 5020 0 5021-5024 0 5025-5041 0 5042-5052 0 5053-5058 0 5059-5073
+/odm/firmware/aw8697_Silence_RTP_35.bin 5074-5079 0 5080-5088 0 5089 0 5090 0 3438 0 5092-5095 0 5096-5099 0 5100 0 5101 0 5102 0 5103-5104 0 5105-5109 0 5110 0 5111 0 5112 0 5113-5116 0 5117-5118 4466 5119-5127 0 5128 0 5129 0 5130 0 5131-5132 0 5133-5139 0 5140 0 5141 0 5142-5145 0 5146-5149 0 5150 0 5151 0 5152 0 5153-5161 0 5162 0 5163 0 5164-5181 0 0 0 5182
+/odm/firmware/aw8697_Simple_channel_RTP_48.bin 5183 0 5184-5186
+/odm/firmware/aw8697_Simple_channel_RTP_oplusos7_133.bin 5187-5188
+/odm/firmware/aw8697_Splash_channel_RTP_16.bin 5189-5193
+/odm/firmware/aw8697_Stars_RTP_36.bin 5194-5199 4425 5200-5257 0 5258-5268 4578 5242 0 5270-5282 0 5283-5305
+/odm/firmware/aw8697_Summer_RTP_37.bin 5306-5309 0 0 5310-5319 0 0 5320-5324 0 5325-5327 0 5328 5330-5336 0 5337-5341 0 5342-5351 0 0 0 5352-5358 0 0 5359-5364 0 5365-5366 0 5367-5371
+/odm/firmware/aw8697_Toys_RTP_38.bin 5372-5436 4353 5437-5474
+/odm/firmware/aw8697_Travel_RTP_39.bin 5475-5482 0 5483-5484 0 5485-5488 5130 5489 5491-5494 0 5495 5084 0 5496 3730 5497-5507 0 5508-5520 0 5521-5522 0 5523-5532 0 5533-5545 0 5546-5547 0 5548-5555
+/odm/firmware/aw8697_Vision_RTP_40.bin 5556-5586 4492 5587-5625 4418 5626 5628-5677 4389 5678-5685 0 5686-5725
+/odm/firmware/aw8697_clock_channel_RTP_43.bin 5726-5728 0 5729-5731 0 0 5732-5734 0 5735-5738 0 5739 5741-5742
+/odm/firmware/aw8697_cut_channel_RTP_42.bin 5743-5745 0 5746-5748 0 5749-5751
+/odm/firmware/aw8697_desk_7_RTP_54.bin 5752
+/odm/firmware/aw8697_haptic.bin 5753-5754
+/odm/firmware/aw8697_haptic_166.bin 5755-5756
+/odm/firmware/aw8697_haptic_168.bin 5757-5758
+/odm/firmware/aw8697_haptic_170.bin 5759-5760
+/odm/firmware/aw8697_haptic_172.bin 5761-5762
+/odm/firmware/aw8697_haptic_174.bin 5763-5764
+/odm/firmware/aw8697_haptic_19081.bin 5765-5766
+/odm/firmware/aw8697_high_temp_high_humidity_channel_RTP_51.bin 5767-5769 0 5770
+/odm/firmware/aw8697_honor_fisrt_kill_RTP_60.bin 5771
+/odm/firmware/aw8697_honor_five_kill_RTP_64.bin 5772-5776
+/odm/firmware/aw8697_honor_four_continu_kill_RTP_66.bin 5777-5779
+/odm/firmware/aw8697_honor_four_kill_RTP_63.bin 5780-5782
+/odm/firmware/aw8697_honor_lengendary_RTP_69.bin 5783-5788
+/odm/firmware/aw8697_honor_thousands_kill_RTP_68.bin 5789-5792
+/odm/firmware/aw8697_honor_three_continu_kill_RTP_65.bin 5793-5795
+/odm/firmware/aw8697_honor_three_kill_RTP_62.bin 5796-5798
+/odm/firmware/aw8697_honor_two_kill_RTP_61.bin 5799
+/odm/firmware/aw8697_honor_unstoppable_RTP_67.bin 5800-5803
+/odm/firmware/aw8697_kill_program_RTP_47.bin 5804-5805
+/odm/firmware/aw8697_listen_pop_53.bin 5806-5811
+/odm/firmware/aw8697_long_sound_channel_RTP_44.bin 5812-5817 0 0 0 0 0 5818-5824 0 0 0 0 0 0 5825-5830
+/odm/firmware/aw8697_nfc_10_RTP_55.bin 5831-5834
+/odm/firmware/aw8697_notice_13_RTP_57.bin 5835-5837
+/odm/firmware/aw8697_old_steady_168.bin 5838-5843
+/odm/firmware/aw8697_old_steady_170.bin 5844-5849
+/odm/firmware/aw8697_old_steady_173.bin 5850-5855
+/odm/firmware/aw8697_old_steady_175.bin 5856-5861
+/odm/firmware/aw8697_old_steady_test_19081_52.bin 5862-5873
+/odm/firmware/aw8697_old_steady_test_RTP_52.bin 5874-5885
+/odm/firmware/aw8697_rtp_lighthouse.bin 5886-6238
+/odm/firmware/aw8697_short_channel_RTP_45.bin 6239-6243 0 0 0 6244-6248 0 0 0 0 6249-6253
+/odm/firmware/aw8697_soldier_fifth_kill_RTP_104.bin 6254-6258
+/odm/firmware/aw8697_soldier_first_kill_RTP_100.bin 6259-6260
+/odm/firmware/tp/18115/FW_S3706_SAMSUNG.img 7499-7524
+/odm/firmware/tp/18115/FW_S3706_SAMSUNG_FAE.img 7525-7550
+/odm/firmware/tp/18115/LIMIT_S3706_SAMSUNG.img 7551-7552
+/odm/firmware/tp/18821/FW_S6SY761_SAMSUNG.bin 7553-7594
+/odm/firmware/tp/18821/FW_S6SY761_SAMSUNG_FAE.bin 7595-7636
+/odm/firmware/tp/18821/LIMIT_S6SY761_SAMSUNG.img 7637-7640
+/odm/firmware/tp/18857/FW_S3706_SAMSUNG.img 7641-7666
+/odm/firmware/tp/18857/FW_S3706_SAMSUNG_FAE.img 7667-7692
+/odm/firmware/tp/18857/LIMIT_S3706_SAMSUNG.img 7693-7694
+/odm/firmware/tp/18865/FW_S3706_SAMSUNG.img 7695-7720
+/odm/firmware/tp/18865/FW_S3706_SAMSUNG_FAE.img 7721-7746
+/odm/firmware/tp/18865/FW_S3706_SAMSUNG_NEW.img 7747 7696-7719 7748
+/odm/firmware/tp/18865/FW_S3706_SAMSUNG_NEW_FAE.img 7749 7722-7746
+/odm/firmware/tp/18865/LIMIT_S3706_SAMSUNG.img 7750-7751
+/odm/firmware/tp/18865/LIMIT_S3706_SAMSUNG_NEW.img 7752-7753
+/odm/firmware/tp/19081/FW_S3706_SAMSUNG.img 7754-7779
+/odm/firmware/tp/19081/FW_S3706_SAMSUNG_FAE.img 7780-7805
+/odm/firmware/tp/19081/FW_S3706_SAMSUNG_OLD.img 7806-7828 7777 7829-7830
+/odm/firmware/tp/19081/FW_S3706_SAMSUNG_OLD_FAE.img 7831-7853 7803 7854-7855
+/odm/firmware/tp/19081/LIMIT_S3706_SAMSUNG.img 7856-7857
+/odm/firmware/tp/19081/LIMIT_S3706_SAMSUNG_OLD.img 7858-7859
+/odm/firmware/tp/19696/FW_HX_NF83112A_DSJM.img 7860-7870 0 7871-7875
+/odm/firmware/tp/19696/FW_HX_NF83112A_DSJM_FAE.img 7876-7891
+/odm/firmware/tp/19696/FW_HX_NF83112A_DSJM_TEST.img 7892-7901 0 7902-7904 7890 7905
+/odm/firmware/tp/19696/FW_NT36672C_NF_BOE.img 7906-7924 0 0 0 0 0 7925-7929 0 0 7930-7931 0 7932
+/odm/firmware/tp/19696/FW_NT36672C_NF_BOE_FAE.img 7933-7950 0 0 0 0 0 0 7951-7955 0 0 7956-7958
+/odm/firmware/tp/19696/FW_NT36672C_NF_BOE_TEST.bin 7959-7976 0 0 0 0 0 0 7951 7977 7953-7955 0 0 7978 7957 7980
+/odm/firmware/tp/19696/FW_NT36672C_NF_JDI.img 7981-7999 0 0 0 0 0 8000-8003 7929 0 0 8004-8005 0 8006
+/odm/firmware/tp/19696/FW_NT36672C_NF_JDI_FAE.img 8008-8026 0 0 0 0 0 8027-8030 7955 0 0 8031-8033
+/odm/firmware/tp/19696/FW_NT36672C_NF_JDI_TEST.bin 8034-8051 0 0 0 0 0 0 8027 8052 8029-8030 7955 0 0 8054 8032 8055
+/odm/firmware/tp/19696/LIMIT_NT36672C_NF_BOE.img 8056-8065
+/odm/firmware/tp/19696/LIMIT_NT36672C_NF_JDI.img 8066-8074
+/odm/firmware/tp/19801/FW_S6SY761_SAMSUNG.bin 8075-8116
+/odm/firmware/tp/19801/FW_S6SY761_SAMSUNG_FAE.bin 8117-8158
+/odm/firmware/tp/19801/FW_S6SY761_SAMSUNG_NEW.bin 8159-8200
+/odm/firmware/tp/19801/FW_S6SY761_SAMSUNG_NEW_FAE.bin 8201-8242
+/odm/firmware/tp/19801/LIMIT_S6SY761_SAMSUNG.img 7637-7640
+/odm/firmware/tp/19801/LIMIT_S6SY761_SAMSUNG_NEW.img 8243-8246
+/odm/firmware/aw8697_soldier_fourth_kill_RTP_103.bin 6261-6264
+/odm/firmware/aw8697_soldier_second_kill_RTP_101.bin 6265-6266
+/odm/firmware/aw8697_soldier_third_kill_RTP_102.bin 6267-6269
+/odm/firmware/aw8697_third_ring_14_RTP_58.bin 6270-6275
+/odm/firmware/aw8697_two_error_remaind_RTP_46.bin 6276-6277
+/odm/firmware/aw8697_vibrator_remain_12_RTP_56.bin 6278-6279
+/odm/firmware/aw8697_waltz_channel_RTP_41.bin 6280-6281 0 6282 0 6283-6286 0 6287-6289 0 6290
+/odm/firmware/aw8697_weather_cloudy_RTP_oplusos7_143.bin 0 0 0 0 0 0 6292-6293 0 6294-6295 0 6296-6297 0 6298-6299 0 6300 6302 0 6303-6305 0 6306-6313 0 6314-6315 0 6316-6318 0 6319-6335 0 6336-6341 0 6342-6343 0 6344-6348 0 6349-6353 0 6354-6362 0 6363-6364 0 6365-6369 0 6370-6371 0 6372-6382
+/odm/firmware/aw8697_weather_default_RTP_oplusos7_145.bin 0 0 0 0 0 0 0 0 0 6383-6385 0 0 6386-6388 0 6389-6393 0 0 6394-6398 0 0 6399 6401-6403 0 6404-6408 0 0 0 0 0 6409-6411 0 6412-6414 0 0 6415 0 6416 0 6417-6420 0 6421 0 6422 0 0 6423-6426 0 6427 0 6428 0 6429-6432 0 6433-6435 0 6436-6439 0 6440-6444 0 0 6445-6448 0 6449 0 6450-6453 0 6454-6458 0 0 0 0 0 6459-6461 0 6462-6464 0 0 6465 0 6466 0 6467-6470 0 6471-6474 0 0 0 0 0 0 6475-6478
+/odm/firmware/aw8697_weather_rain_RTP_oplusos7_149.bin 6479-6481 0 6482 0 6483-6486 0 0 6487-6492 0 0 0 6493 6495-6500 0 6501-6506 0 0 6507 0 6508-6511 0 6512-6514 0 6515-6521 0 6522-6537 0 6538 0 6539-6549
+/odm/firmware/aw8697_weather_smog_RTP_oplusos7_147.bin 0 0 0 0 6550-6553 0 6554 0 6555-6557 0 0 0 6558-6560 0 6561 6563-6565 0 0 6566-6572 0 6573-6576 0 6577-6579 0 0 6580-6583 0 6584 0 6585-6587 0 6588-6590 0 0 6591-6593 0 6594 0 6595-6597 0 6598-6599 0 0 6600-6606
+/odm/firmware/aw8697_weather_snow_RTP_oplusos7_148.bin 6607 0 6608 0 6609 0 6610-6613 0 0 0 6614 6616-6617 0 6618-6619 0 6620 0 6621 0 6622 0 6623-6626 0 0 0 6627 0 6628-6632 6333 0 6633-6637 0 6638 0 0 0 0 6639 0 6640 0 6641 0 6642 0 6643-6646 0 0 0 0 0 6647-6654 0 6655 0 6656 0 0 0 0 6657 0 6658
+/odm/firmware/aw8697_weather_sunny_RTP_oplusos7_146.bin 0 0 0 6659-6660 0 6661-6662 0 6663-6669 0 0 0 0 0 6670-6673 0 0 0 0 0 0 0 0 0 0 6674 6676 0 6677-6678 0 6679-6685 0 0 0 0 0 0 0 6686-6688 0 6689-6692 0 0 0 0 0 6693-6696 0 0 0 0 0 6697-6699 0 6700-6704 0 0 6705-6707 0 0 0 6708-6719
+/odm/firmware/aw8697_weather_thunderstorm_RTP_oplusos7_144.bin 0 0 6720-6723 0 0 6724 0 0 0 0 6725-6726 0 6727 0 6728 0 0 0 0 6730-6733 0 0 6734 0 0 0 6735-6736 0 0 6737-6740 0 0 6741-6745 0 6746 0 0 0 0 0 6747 0 0 0 6748-6751 0 0 6752-6754 0 0 6755-6756 0 0 6757-6759 0 0 0 6760
+/odm/firmware/aw8697_weather_wind_RTP_oplusos7_142.bin 0 6761-6869
+/odm/firmware/awinic_haptic_gun_params.bin 6870
+/odm/firmware/awinic_haptic_params.bin 6871
+/odm/firmware/barca_alarm_ring_RTP_120.bin 6872-6875 0 6876-6879 0 6880-6888 0 0 0 0 6889-6907 0 0 0 0 0 6908 6910-6915 0 0 6916-6920 0 6921-6922 0 6923 0 0 0 0 0 6924-6930 0 0 6931-6935 0 6936-6937 0 6938 0 0 0 0 0 6939-6944 0 6945-6958 0 0 0 0 6959-6963 0 6964-6976 0 0 0 0 0 6977-6995 0 0 0 0 0 6996-7016 0 0 0 7017-7037
+/odm/firmware/barca_incoming_ring_RTP_121.bin 7038-7056 0 0 7057-7059 0 7060-7078 0 0 0 7079-7080 0 7081 7083-7091 0 7092 0 7093-7101 0 0 7102-7105 0 0 7106-7109 0 0 7110-7117 3298
+/odm/firmware/barca_notice_ring_RTP_122.bin 7118-7125
+/odm/firmware/fastchg/18115/oplus_vooc_fw.bin 7126-7127
+/odm/firmware/fastchg/18501/oplus_vooc_fw.bin 7128-7129
+/odm/firmware/fastchg/18815/oplus_vooc_fw.bin 7130-7131
+/odm/firmware/fastchg/18817/oplus_vooc_fw.bin 7130-7131
+/odm/firmware/fastchg/18821/oplus_vooc_fw.bin 7130-7131
+/odm/firmware/fastchg/18823/oplus_vooc_fw.bin 7130-7131
+/odm/firmware/fastchg/18851/oplus_vooc_fw.bin 7132-7133
+/odm/firmware/fastchg/18853/oplus_vooc_fw.bin 7132-7133
+/odm/firmware/fastchg/18855/oplus_vooc_fw.bin 7132-7133
+/odm/firmware/fastchg/18857/oplus_vooc_fw.bin 7132-7133
+/odm/firmware/fastchg/18865/oplus_vooc_fw.bin 7134-7135
+/odm/firmware/fastchg/19081/oplus_vooc_fw.bin 7136-7137
+/odm/firmware/fastchg/19696/oplus_vooc_fw.bin 7138-7139
+/odm/firmware/fastchg/19781/oplus_vooc_fw.bin 7140-7141
+/odm/firmware/fastchg/19801/oplus_vooc_fw.bin 7142-7143
+/odm/firmware/fastchg/19830/oplus_vooc_fw.bin 7142-7143
+/odm/firmware/fastchg/19831/oplus_vooc_fw.bin 7142-7143
+/odm/firmware/fastchg/19850/oplus_vooc_fw.bin 7134-7135
+/odm/firmware/fastchg/19851/oplus_vooc_fw.bin 7134-7135
+/odm/firmware/fastchg/19853/oplus_vooc_fw.bin 7134-7135
+/odm/firmware/fastchg/19863/oplus_vooc_fw.bin 7134-7135
+/odm/firmware/lighthouse.mp3 7144-7458 7146 7459-7477 7166 7478 7480-7497
+/odm/firmware/tfa98xx.cnt 7498
+/odm/framework/oat/arm/vendor.oplus.hardware.appradio-V1.0-java.odex 8247-8251
+/odm/framework/oat/arm/vendor.oplus.hardware.appradio-V1.0-java.vdex 8252
+/odm/framework/oat/arm/vendor.oplus.hardware.biometrics.fingerprintpay-V1.0-java.odex 8253-8255 8250 8256
+/odm/framework/oat/arm/vendor.oplus.hardware.biometrics.fingerprintpay-V1.0-java.vdex 8257
+/odm/framework/oat/arm/vendor.oplus.hardware.charger-V1.0-java.odex 8258-8260 8250 8261
+/odm/framework/oat/arm/vendor.oplus.hardware.charger-V1.0-java.vdex 8262
+/odm/framework/oat/arm/vendor.oplus.hardware.cryptoeng-V1.0-java.odex 8263-8264 8260 8250 8261
+/odm/framework/oat/arm/vendor.oplus.hardware.cryptoeng-V1.0-java.vdex 8265
+/odm/framework/oat/arm/vendor.oplus.hardware.engineer-V1.0-java.odex 8266-8268 8250 8269
+/odm/framework/oat/arm/vendor.oplus.hardware.engineer-V1.0-java.vdex 8270
+/odm/framework/oat/arm/vendor.oplus.hardware.felica-V1.0-java.odex 8271-8273 8250 8274
+/odm/framework/oat/arm/vendor.oplus.hardware.felica-V1.0-java.vdex 8275
+/odm/framework/oat/arm/vendor.oplus.hardware.ims-V1.0-java.odex 8276-8278 8250 8279
+/odm/framework/oat/arm/vendor.oplus.hardware.ims-V1.0-java.vdex 8280
+/odm/framework/oat/arm/vendor.oplus.hardware.lmvibrator-V1.0-java.odex 8281-8282 8260 8250 8261
+/odm/framework/oat/arm/vendor.oplus.hardware.lmvibrator-V1.0-java.vdex 8283
+/odm/framework/oat/arm/vendor.oplus.hardware.misc-V1.0-java.odex 8284-8286 8250 8287
+/odm/framework/oat/arm/vendor.oplus.hardware.misc-V1.0-java.vdex 8288
+/odm/framework/oat/arm/vendor.oplus.hardware.motorcontrol-V1.0-java.odex 8289-8290 8260 8250 8261
+/odm/framework/oat/arm/vendor.oplus.hardware.motorcontrol-V1.0-java.vdex 8291
+/odm/framework/oat/arm/vendor.oplus.hardware.oplusSensor-V1.0-java.odex 8292-8293 8268 8250 8269
+/odm/framework/oat/arm/vendor.oplus.hardware.oplusSensor-V1.0-java.vdex 8294
+/odm/framework/oat/arm/vendor.oplus.hardware.orms-V1.0-java.odex 8295-8297 8250 8298
+/odm/framework/oat/arm/vendor.oplus.hardware.orms-V1.0-java.vdex 8299
+/odm/framework/oat/arm/vendor.oplus.hardware.orms.ormsHalService-V1.0-java.odex 8300-8302 8250 8303
+/odm/framework/oat/arm/vendor.oplus.hardware.orms.ormsHalService-V1.0-java.vdex 8304
+/odm/framework/oat/arm/vendor.oplus.hardware.performance-V1.0-java.odex 8305-8307 8250 8308
+/odm/framework/oat/arm/vendor.oplus.hardware.performance-V1.0-java.vdex 8309
+/odm/framework/oat/arm/vendor.oplus.hardware.radio-V1.0-java.odex 8310-8312 8250 8313
+/odm/framework/oat/arm/vendor.oplus.hardware.radio-V1.0-java.vdex 8314
+/odm/framework/oat/arm/vendor.oplus.hardware.stability.oplus_project-V1.0-java.odex 8315-8316 8260 8250 8261
+/odm/framework/oat/arm/vendor.oplus.hardware.stability.oplus_project-V1.0-java.vdex 8317
+/odm/framework/oat/arm/vendor.oplus.hardware.thermalmntcfg-V1.0-java.odex 8318-8319 8255 8250 8256
+/odm/framework/oat/arm/vendor.oplus.hardware.thermalmntcfg-V1.0-java.vdex 8320
+/odm/framework/oat/arm/vendor.oplus.hardware.touch-V1.0-java.odex 8321-8322 8260 8250 8261
+/odm/framework/oat/arm/vendor.oplus.hardware.touch-V1.0-java.vdex 8323
+/odm/framework/oat/arm/vendor.oplus.hardware.transfer-V1.0-java.odex 8324-8326 8250 8327
+/odm/framework/oat/arm/vendor.oplus.hardware.transfer-V1.0-java.vdex 8328
+/odm/framework/oat/arm/vendor.oplus.hardware.transmessage-V1.0-java.odex 8329-8330 8286 8250 8287
+/odm/framework/oat/arm/vendor.oplus.hardware.transmessage-V1.0-java.vdex 8331
+/odm/framework/oat/arm/vendor.oplus.hardware.wifi-V1.1-java.odex 8332-8333 8268 8250 8269
+/odm/framework/oat/arm/vendor.oplus.hardware.wifi-V1.1-java.vdex 8334
+/odm/framework/oat/arm64/vendor.oplus.hardware.appradio-V1.0-java.odex 8335-8339
+/odm/framework/oat/arm64/vendor.oplus.hardware.appradio-V1.0-java.vdex 8252
+/odm/framework/oat/arm64/vendor.oplus.hardware.biometrics.fingerprintpay-V1.0-java.odex 8340-8342 8338 8343
+/odm/framework/oat/arm64/vendor.oplus.hardware.biometrics.fingerprintpay-V1.0-java.vdex 8257
+/odm/framework/oat/arm64/vendor.oplus.hardware.charger-V1.0-java.odex 8344-8346 8338 8347
+/odm/framework/oat/arm64/vendor.oplus.hardware.charger-V1.0-java.vdex 8262
+/odm/framework/oat/arm64/vendor.oplus.hardware.cryptoeng-V1.0-java.odex 8348-8349 8346 8338 8347
+/odm/framework/oat/arm64/vendor.oplus.hardware.cryptoeng-V1.0-java.vdex 8265
+/odm/framework/oat/arm64/vendor.oplus.hardware.engineer-V1.0-java.odex 8350-8352 8338 8353
+/odm/framework/oat/arm64/vendor.oplus.hardware.engineer-V1.0-java.vdex 8270
+/odm/framework/oat/arm64/vendor.oplus.hardware.felica-V1.0-java.odex 8354-8356 8338 8357
+/odm/framework/oat/arm64/vendor.oplus.hardware.felica-V1.0-java.vdex 8275
+/odm/framework/oat/arm64/vendor.oplus.hardware.ims-V1.0-java.odex 8358-8360 8338 8361
+/odm/framework/oat/arm64/vendor.oplus.hardware.ims-V1.0-java.vdex 8280
+/odm/framework/oat/arm64/vendor.oplus.hardware.lmvibrator-V1.0-java.odex 8362-8363 8346 8338 8347
+/odm/framework/oat/arm64/vendor.oplus.hardware.lmvibrator-V1.0-java.vdex 8283
+/odm/framework/oat/arm64/vendor.oplus.hardware.misc-V1.0-java.odex 8364-8366 8338 8367
+/odm/framework/oat/arm64/vendor.oplus.hardware.misc-V1.0-java.vdex 8288
+/odm/framework/oat/arm64/vendor.oplus.hardware.motorcontrol-V1.0-java.odex 8368-8369 8346 8338 8347
+/odm/framework/oat/arm64/vendor.oplus.hardware.motorcontrol-V1.0-java.vdex 8291
+/odm/framework/oat/arm64/vendor.oplus.hardware.oplusSensor-V1.0-java.odex 8370-8371 8352 8338 8353
+/odm/framework/oat/arm64/vendor.oplus.hardware.oplusSensor-V1.0-java.vdex 8294
+/odm/framework/oat/arm64/vendor.oplus.hardware.orms-V1.0-java.odex 8372-8374 8338 8375
+/odm/framework/oat/arm64/vendor.oplus.hardware.orms-V1.0-java.vdex 8299
+/odm/framework/oat/arm64/vendor.oplus.hardware.orms.ormsHalService-V1.0-java.odex 8376-8378 8338 8379
+/odm/framework/oat/arm64/vendor.oplus.hardware.orms.ormsHalService-V1.0-java.vdex 8304
+/odm/framework/oat/arm64/vendor.oplus.hardware.performance-V1.0-java.odex 8380-8382 8338 8383
+/odm/framework/oat/arm64/vendor.oplus.hardware.performance-V1.0-java.vdex 8309
+/odm/framework/oat/arm64/vendor.oplus.hardware.radio-V1.0-java.odex 8384-8386 8338 8387
+/odm/framework/oat/arm64/vendor.oplus.hardware.radio-V1.0-java.vdex 8314
+/odm/framework/oat/arm64/vendor.oplus.hardware.stability.oplus_project-V1.0-java.odex 8388-8389 8346 8338 8347
+/odm/framework/oat/arm64/vendor.oplus.hardware.stability.oplus_project-V1.0-java.vdex 8317
+/odm/framework/oat/arm64/vendor.oplus.hardware.thermalmntcfg-V1.0-java.odex 8390-8391 8342 8338 8343
+/odm/framework/oat/arm64/vendor.oplus.hardware.thermalmntcfg-V1.0-java.vdex 8320
+/odm/framework/oat/arm64/vendor.oplus.hardware.touch-V1.0-java.odex 8392-8393 8346 8338 8347
+/odm/framework/oat/arm64/vendor.oplus.hardware.touch-V1.0-java.vdex 8323
+/odm/framework/oat/arm64/vendor.oplus.hardware.transfer-V1.0-java.odex 8394-8396 8338 8397
+/odm/framework/oat/arm64/vendor.oplus.hardware.transfer-V1.0-java.vdex 8328
+/odm/framework/oat/arm64/vendor.oplus.hardware.transmessage-V1.0-java.odex 8398-8399 8366 8338 8367
+/odm/framework/oat/arm64/vendor.oplus.hardware.transmessage-V1.0-java.vdex 8331
+/odm/framework/oat/arm64/vendor.oplus.hardware.wifi-V1.1-java.odex 8400-8401 8352 8338 8353
+/odm/framework/oat/arm64/vendor.oplus.hardware.wifi-V1.1-java.vdex 8334
+/odm/framework/vendor.oplus.hardware.appradio-V1.0-java.jar 8402-8412
+/odm/framework/vendor.oplus.hardware.biometrics.fingerprintpay-V1.0-java.jar 8413-8420
+/odm/framework/vendor.oplus.hardware.charger-V1.0-java.jar 8421-8431
+/odm/framework/vendor.oplus.hardware.cryptoeng-V1.0-java.jar 8432-8436
+/odm/framework/vendor.oplus.hardware.engineer-V1.0-java.jar 8437-8447
+/odm/framework/vendor.oplus.hardware.felica-V1.0-java.jar 8448-8454
+/odm/framework/vendor.oplus.hardware.ims-V1.0-java.jar 8455-8464
+/odm/framework/vendor.oplus.hardware.lmvibrator-V1.0-java.jar 8465-8469
+/odm/framework/vendor.oplus.hardware.misc-V1.0-java.jar 8470-8474
+/odm/framework/vendor.oplus.hardware.motorcontrol-V1.0-java.jar 8475-8479
+/odm/framework/vendor.oplus.hardware.oplusSensor-V1.0-java.jar 8480-8485
+/odm/framework/vendor.oplus.hardware.orms-V1.0-java.jar 8486-8491
+/odm/framework/vendor.oplus.hardware.orms.ormsHalService-V1.0-java.jar 8492-8499
+/odm/framework/vendor.oplus.hardware.performance-V1.0-java.jar 8500-8512
+/odm/framework/vendor.oplus.hardware.radio-V1.0-java.jar 8513-8535
+/odm/framework/vendor.oplus.hardware.stability.oplus_project-V1.0-java.jar 8536-8542
+/odm/framework/vendor.oplus.hardware.thermalmntcfg-V1.0-java.jar 8543-8547
+/odm/framework/vendor.oplus.hardware.touch-V1.0-java.jar 8548-8552
+/odm/framework/vendor.oplus.hardware.transfer-V1.0-java.jar 8553-8558
+/odm/framework/vendor.oplus.hardware.transmessage-V1.0-java.jar 8559-8563
+/odm/framework/vendor.oplus.hardware.wifi-V1.1-java.jar 8564-8576
+/odm/init.oplus.face.rc 8577
+/odm/init.oplus.seccommon.rc 8578
+/odm/lib/android.hardware.biometrics.fingerprint@2.1.so 8579-8607
+/odm/lib/android.hardware.biometrics.fingerprint@2.2.so 8608-8634
+/odm/lib/android.hardware.biometrics.fingerprint@2.3.so 8635-8653
+/odm/lib/android.hardware.nfc@1.0.so 8654-8675
+/odm/lib/android.hardware.nfc@1.1.so 8676-8700
+/odm/lib/android.hardware.nfc@1.2.so 8701-8717
+/odm/lib/android.hardware.secure_element@1.0.so 8718-8741
+/odm/lib/android.hardware.secure_element@1.1.so 8742-8765
+/odm/lib/android.hardware.secure_element@1.2.so 8766-8782
+/odm/lib/ese_client.so 8783-8792
+/odm/lib/ese_spi_nxp_nq330.so 8793-8816
+/odm/lib/hal_libnfc.so 8817-8879
+/odm/lib/hw/fingerprint.18821_goodix9508_G2_4.default.so 8880-8881
+/odm/lib/hw/fingerprint.18857_goodix9508_G2_4.default.so 8882-8883
+/odm/lib/hw/fingerprint.18865_goodix9558_G3.default.so 8884-8885
+/odm/lib/hw/fingerprint.19805_goodix9638_G6_3.default.so 8886-8887
+/odm/lib/hw/fingerprint.19805_goodix9678_G6_7.default.so 8888-8889
+/odm/lib/hw/fingerprint.19811_goodix9638_G6.default.so 8890-8891
+/odm/lib/hw/fingerprint.20801_goodix9558_G3.default.so 8892-8893
+/odm/lib/hw/fingerprint.20828_goodix9678.default.so 8894-8895
+/odm/lib/hw/fingerprint.goodix9608_G5.default.so 8896-8897
+/odm/lib/hw/fingerprint.goodix9638_G6.default.so 8898-8899
+/odm/lib/hw/vendor.oplus.hardware.engcamera@1.0-impl.so 8900-8905
+/odm/lib/hw/vendor.oplus.hardware.orms.ormsHalService@1.0-impl.so 8906-8917
+/odm/lib/libaacvibrator.so 8918-8938
+/odm/lib/libaudioEngineerTest.so 8939-8948
+/odm/lib/libavcodec.so 8949-11529
+/odm/lib/libavformat.so 11530-11822
+/odm/lib/libavutil.so 11823-11927
+/odm/lib/libbsproxy.so 11928-11934
+/odm/lib/libcdm_metrics_protos.so 11935-11969
+/odm/lib/libcdm_protos.so 11970-12095
+/odm/lib/libchrome.so 12096-12321
+/odm/lib/libdapparamstorage_v3_6.so 12322-12326
+/odm/lib/libdav1d.so.4 12327-12508
+/odm/lib/libdeccfg_v3_6.so 12509-12517
+/odm/lib/libdlbdsservice_v3_6.so 12518-12594
+/odm/lib/libdpservice.so 12595-12601
+/odm/lib/libffmpeg_omx.so 12602-12613
+/odm/lib/libffmpeg_utils.so 12614-12617
+/odm/lib/libgf_hal_19805_G6_3_oplus.so 12618-12684
+/odm/lib/libgf_hal_19805_G6_7_oplus.so 12685-12689 12623-12634 12690-12738
+/odm/lib/libgf_hal_19811_G6_oplus.so 12739-12798
+/odm/lib/libgf_hal_20828_G6_7_oplus.so 12799-12864
+/odm/lib/libgf_hal_G5_oplus.so 12865-12913
+/odm/lib/libgf_hal_G6_oplus.so 12914-12973
+/odm/lib/libgf_ud_hal_18821_G2_4_oplus.so 12974-13034
+/odm/lib/libgf_ud_hal_18857_G2_4_oplus.so 13035-13095
+/odm/lib/libgf_ud_hal_18865_G3_oplus.so 13096-13168
+/odm/lib/libgf_ud_hal_20801_G3_oplus.so 13169-13240
+/odm/lib/libifaa_factory.so 13241-13242
+/odm/lib/libmindroid-app.so 13243-13245
+/odm/lib/libmindroid-framework.so 13246-13491
+/odm/lib/liboemcrypto.so 13492-13522
+/odm/lib/liboplus_service.so 13523-13526
+/odm/lib/libormshalclient.so 13527-13530
+/odm/lib/libpn553_fw.so 13531-13540
+/odm/lib/libpn557_fw.so 13541-13550
+/odm/lib/libpnscr2.so 13551-13598
+/odm/lib/libqsee_keybox_ca.so 13599-13612
+/odm/lib/libqti-radio-service.so 13613-13680
+/odm/lib/libqti-subsys-service.so 13681-13685
+/odm/lib/libqtigef.so 13686-13689
+/odm/lib/libradio-service.so 13690-13727
+/odm/lib/libradioapis.so 13728-13773
+/odm/lib/librfapis.so 13774-13791
+/odm/lib/librpmbengclient.so 13792-13793
+/odm/lib/libsn100u_fw.so 13794-13844
+/odm/lib/libstagefright_soft_ac4dec_v3_6.so 13845-14409
+/odm/lib/libstagefright_soft_ddpdec_v3_6.so 14410-14422 13857 14423-15004
+/odm/lib/libstagefrightdolby.so 15005-15006
+/odm/lib/libsubsys-service.so 15007-15014
+/odm/lib/libswresample.so 15015-15035
+/odm/lib/libswscale.so 15036-15142
+/odm/lib/libwvhidl.so 15143-15158 13857 15159-15673
+/odm/lib/ls_client.so 15674-15681
+/odm/lib/mediadrm/libwvdrmengine.so 15682-15696 13857 15697-16187
+/odm/lib/nfc_nci.pn54x.default.so 16188-16236 0 16237 0 16238 0 16239-16240 0 16241 16243
+/odm/lib/oplus.sensors.ssc.so 16244-16254
+/odm/lib/rfsa/adsp/commit.txt 16255
+/odm/lib/rfsa/adsp/libc++.so.1 16256-17154
+/odm/lib/rfsa/adsp/libc++abi.so.1 17155-17313
+/odm/lib/rfsa/adsp/libktvdrc.so 17314-17317
+/odm/lib/rfsa/adsp/libktveffect.so 17318-17341
+/odm/lib/rfsa/adsp/libktveq.so 17342-17349
+/odm/lib/rfsa/adsp/libktvns.so 17350-17358
+/odm/lib/rfsa/adsp/libktvpitchshift.so 17359-17365
+/odm/lib/rfsa/adsp/libktvreverb.so 17366-17371
+/odm/lib/rfsa/adsp/libktvvolume.so 17372-17374
+/odm/lib/soundfx/awinic.haptic.effect.so 17375-17384
+/odm/lib/soundfx/libhwdap_v3_6.so 17385-17402
+/odm/lib/soundfx/libswdap_v3_6.so 17403-17858
+/odm/lib/vendor.aac.hardware.richtap.vibrator-V1-ndk_platform.so 17859-17868
+/odm/lib/vendor.dolby_v3_6.hardware.dms360@2.0-impl.so 17869-17876
+/odm/lib/vendor.dolby_v3_6.hardware.dms360@2.0.so 17877-17923
+/odm/lib/vendor.nxp.eventprocessor@1.0.so 17924-17936
+/odm/lib/vendor.nxp.nxpnfc@1.0.so 17937-17949
+/odm/lib/vendor.nxpnq330.nxpese@1.0.so 17950-17962
+/odm/lib/vendor.oneplus.faceunlock.hal@2.0.so 17963-17982
+/odm/lib/vendor.oplus.hardware.appradio@1.0.so 17983-18016
+/odm/lib/vendor.oplus.hardware.biometrics.face@1.0.so 18017-18056
+/odm/lib/vendor.oplus.hardware.biometrics.fingerprint@2.1.so 18057-18086
+/odm/lib/vendor.oplus.hardware.biometrics.fingerprintpay@1.0.so 18087-18115
+/odm/lib/vendor.oplus.hardware.charger@1.0.so 18116-18169
+/odm/lib/vendor.oplus.hardware.commondcs@1.0.so 18170-18183
+/odm/lib/vendor.oplus.hardware.cryptoeng@1.0.so 18184-18196
+/odm/lib/vendor.oplus.hardware.displaypanelfeature@1.0.so 18197-18211
+/odm/lib/vendor.oplus.hardware.engcamera@1.0.so 18212-18237
+/odm/lib/vendor.oplus.hardware.engineer@1.0.so 18238-18281
+/odm/lib/vendor.oplus.hardware.felica@1.0-impl.so 18282-18284
+/odm/lib/vendor.oplus.hardware.felica@1.0.so 18285-18302
+/odm/lib/vendor.oplus.hardware.ims@1.0.so 18303-18331
+/odm/lib/vendor.oplus.hardware.lmvibrator@1.0.so 18332-18348
+/odm/lib/vendor.oplus.hardware.misc@1.0.so 18349-18363
+/odm/lib/vendor.oplus.hardware.mmdisplayfeature@1.0.so 18364-18377
+/odm/lib/vendor.oplus.hardware.motorcontrol@1.0.so 18378-18393
+/odm/lib/vendor.oplus.hardware.nfc@1.0.so 18394-18407
+/odm/lib/vendor.oplus.hardware.oplusSensor@1.0.so 18408-18425
+/odm/lib/vendor.oplus.hardware.orms.ormsHalService@1.0.so 18426-18459
+/odm/lib/vendor.oplus.hardware.orms@1.0.so 18460-18474
+/odm/lib/vendor.oplus.hardware.performance@1.0.so 18475-18543
+/odm/lib/vendor.oplus.hardware.radio@1.0.so 18544-18622
+/odm/lib/vendor.oplus.hardware.stability.oplus_project@1.0.so 18623-18651
+/odm/lib/vendor.oplus.hardware.subsys@1.0.so 18652-18679
+/odm/lib/vendor.oplus.hardware.subsys_radio@1.0.so 18680-18879
+/odm/lib/vendor.oplus.hardware.thermalmntcfg@1.0.so 18880-18894
+/odm/lib/vendor.oplus.hardware.touch@1.0.so 18895-18909
+/odm/lib/vendor.oplus.hardware.transfer@1.0.so 18910-18929
+/odm/lib/vendor.oplus.hardware.transmessage@1.0.so 18930-18945
+/odm/lib/vendor.oplus.hardware.wifi.powersystem@1.0.so 18946-18971
+/odm/lib/vendor.oplus.hardware.wifi.supplicant@2.0.so 18972-19044
+/odm/lib/vendor.oplus.hardware.wifi@1.1.so 19045-19082
+/odm/lib64/android.hardware.biometrics.common-V1-ndk_platform.so 19083-19092
+/odm/lib64/android.hardware.biometrics.face-V1-ndk_platform.so 19093-19126
+/odm/lib64/android.hardware.biometrics.fingerprint@2.1.so 19127-19166
+/odm/lib64/android.hardware.biometrics.fingerprint@2.2.so 19167-19203
+/odm/lib64/android.hardware.biometrics.fingerprint@2.3.so 19204-19229
+/odm/lib64/android.hardware.common-V2-ndk_platform.so 19230-19234
+/odm/lib64/android.hardware.keymaster-V3-ndk_platform.so 19235-19239
+/odm/lib64/android.hardware.nfc@1.0.so 19240-19282
+/odm/lib64/android.hardware.nfc@1.1.so 19283-19329
+/odm/lib64/android.hardware.nfc@1.2.so 19330-19362
+/odm/lib64/android.hardware.secure_element@1.0.so 19363-19396
+/odm/lib64/android.hardware.secure_element@1.1.so 19397-19430
+/odm/lib64/android.hardware.secure_element@1.2.so 19431-19454
+/odm/lib64/camera/com.qti.sensor.imx471.so 19455-19457
+/odm/lib64/camera/com.qti.sensor.imx481.so 19458-19460
+/odm/lib64/camera/com.qti.sensor.imx586.so 19461-19464
+/odm/lib64/camera/com.qti.sensor.s5k3m5.so 19465-19467
+/odm/lib64/camera/com.qti.sensormodule.ofilm_imx481.bin 19468-19512
+/odm/lib64/camera/com.qti.sensormodule.ofilm_imx586.bin 19513-19782
+/odm/lib64/camera/com.qti.sensormodule.ofilm_s5k3m5.bin 19783-19883
+/odm/lib64/camera/com.qti.sensormodule.semco_2nd_lens_imx586.bin 19884-20152
+/odm/lib64/camera/com.qti.sensormodule.semco_imx481.bin 20153-20197
+/odm/lib64/camera/com.qti.sensormodule.semco_imx586.bin 19884-20066 20198 20068-20152
+/odm/lib64/camera/com.qti.sensormodule.semco_s5k3m5.bin 20199-20299
+/odm/lib64/camera/com.qti.sensormodule.sunny_imx471.bin 20300-20328
+/odm/lib64/camera/com.qti.tuned.ofilm_imx481.bin 20329-20410 0 20411 0 0 20412-20419 0 0 0 20420-20425 0 0 20426 20428-20433 0 0 0 20434-20436 0 0 20437-20451 0 0 0 20452-20471 0 0 20472-20479 0 0 20480-21175 20544-20545 21176-21446 0 0 21447-21913
+/odm/lib64/camera/com.qti.tuned.ofilm_imx586.bin 21914-22195 0 22196 0 0 22197-22205 0 0 0 22206-22211 0 0 22212 22214-22219 0 0 0 22220-22222 0 0 22223-22235 0 0 0 22236-22516 21170 22517-22577 0 0 0 22578-22591 0 0 22592-23339 23286 23340-23751 22522 23752-24093 23106 24094-24099 23263 24100-24111 23276 24112-24364 23792-23793 24365-24578 22585 24579-24637 22898 24638-24723 22629 24724-24960 22884 24961-24969 22894 24970-24971 22897 24972-24973 24639 24974-25236 23421 25237-25239 24766 22878-22884 25240-25399 23045 25400-25491 24105 25492-25571 22513 25572-25600 23880 25601-25613 25114 25614-25940 23910 25941-26228 25595 26229-26324 24829 26325-26327 24833 26328-26332 24839 26333-26334 24842 26335-26391 23534 26392-26393 26341 26394-26476 26312 26477-26478 26315 26479-26481 26319 26482-26490 25497-25498 26491-26492 25501 26493-26495 25505-25507 26496 25509 26497-26554 25947 26555-26786 21097 26787-26788 21100 26789-26909 23530 26910-26912 23534 26913-26914 26341 26915-26916 22337 26917-26919 23544 26920-26988 23920 26989-26991 25954 26992-27048 23544 27049-27050 26922 27051-27160 25733 27161-27330 23025 27331-27373 22880 27374-27411 25443 27412-27501 23165 27502-27503 23168 27504-27519 23383 27520-27664 25217-25218 27665 25220 27666-27667 25223 27668-27792 24359 27793-27794 24362 27795-27803 24370 27804-27805 24373 27806-27909 25520 27910-28133 26312 28134-28142 26322 28143-28144 24829 28145-28424 23256 28425-28442 22258-22260 28443-28714 0 0 28715-28757 24150 28758-28936 20916 28937-29013 28427 29014-29016 28431 29017-29047 23512 29048-29049 23515 29050-29052 23519 29053-29177 24197 29178-29179 24200 29180-29208 25469 29209-29210 25472 29211-29212 25475 29213-29214 25478 29215-29243 27157 29244-29249 27522 29250-29258 27532 29259-29295 21331 29296-29325 24240-24241 29326-29611 22510 29612-29613 22513 29614-29619 22519 29620-29621 22522 29622-29624 25585 29625-29937 26700 29938-29939 29173 29940-30151 22911-22912 30152 22914-22916 30153 22918-22924 30154-30210 22635 30211-30213 27151 30214-30215 27154 20618 30216-30220 24743 30221-30222 27163 30223-30224 27166 30225-30287 24108 30288-30290 23276 30291-30292 23279 30293-30346 27522 30347-30349 27526 30350-30351 24759 30352-30448 25941-25945 30449 25947 30450-30454 25953-25959 30455 26568 30456-30612 26119 30613-30615 26123 30616-30658 26167 30659 26169-26170 30660 26172 24826 30661-30692 23528-23532 30693 23534-23535 30694-30775 27513 30776-30778 27517-27518 30779-30782 27522 30783-30785 27526 30786-30787 24759 30788-30793 27536 30794-30795 27539 30796-30800 23428 30801-31090 0 0 0 31091-31104 0 0 0 31105-31139 23293 31140-31256 28720-28722 31257-31756
+/odm/lib64/camera/com.qti.tuned.ofilm_s5k3m5.bin 31757-31865 0 31866 0 0 31867-31873 0 31874 0 0 0 31875 31877-31881 0 0 31882-31888 0 0 0 31889-31891 0 0 31892-31912 0 0 0 31913-31931 0 0 0 31932-31936 0 0 0 31937-31963 29167 31964-32213 21170 32214-32229 21807 32230-32666 21008 32667-32668 21011-21012 32669-32697 32260 32698-32712 32479 32713-32767 32834-32932 21331 32933-32969 32061 32970-32971 32064 32972-32973 32067 32974-33029 32181 33030-33079 20801 33080-33277 0 0 0 33278-33450 21843 33451-33458 32892 33459-33499 32483 33500-33501 32486 33502-33604 32590 33605-33899 32703 33900-33908 32479 33909-33956 22629 33957-34049 33183 34050-34058 33193 34059-34063 33652 34064-34123 31470 34124-34127 31475 34128-34223
+/odm/lib64/camera/com.qti.tuned.semco_imx481.bin 34224 20330-20336 34225-34298 0 34299 0 0 34300 34302-34308 0 0 0 34309-34314 0 0 34315-34321 0 0 0 34322-34324 0 0 34325-34339 0 0 0 34340-34359 0 0 34360-34367 0 0 34368-34531 21595-21596 34532-34610 20617 34611-34796 20804 34797-35059 34432-34433 35060-35065 30363-30364 35066-35067 30367-30368 35068-35070 30372 35071-35333 0 0 0 35334-35462 30103 35463-35464 30106 35465-35684 21843 35685-35703 24566 35704-35705 24569 35706 24571-24577 35707-35788
+/odm/lib64/camera/com.qti.tuned.semco_imx586.bin 35789-36068 0 36069 0 0 0 36070-36076 0 36077 0 0 0 36078 36080-36084 0 0 36085-36091 0 0 0 36092-36093 0 0 0 36094-36106 0 0 36107-36212 32061 36213-36448 0 0 36449-36462 0 0 0 36463-36496 30790 36497-36499 30103 36500-36556 34695 36557 34697 36558-36559 34700-34701 36560-36565 34708-34709 36566-36743 25485-25487 36744 25489-25490 36745-36748 29019 36749-36758 24386 36759-36838 27704-27705 36839-36956 27800 36957-36959 28930 36960-36961 28933 36962-37010 23419-23429 37011 23431 37012-37013 23434 37014-37015 23437-23438 37016-37017 23441-23450 37018-37075 23792 37076-37078 23796 37079-37080 23799 37081-37082 28933 37083-37098 24726 37099-37100 24729 37101-37102 24584 37103-37105 24736 37106-37107 24739 37108-37134 25166 37135-37146 27499-27501 23165 37147 27503 23168 37103 37148-37190 21843 37191-37192 24637 37193-37226 23102 37227-37232 24096 37233-37319 27999-28000 37320 28002 37321-37322 28005 37323-37330 26223-26226 37331 26228 25595 37332-37333 26642 37334-37335 36209 37336-37338 25604 37339-37341 24187 37342-37351 22718 37352-37357 23988-23989 37358 23991 37359-37578 30773 37579-37580 27513 37581-37583 27517 37584-37670 28751 37671-37675 29931 37676-37678 29935 37679 29937 26700 37680-37681 29173 37682 29941-29948 37683-37686 26319 37687-37865 24370 37866-37867 24373 37868-37870 37086 37871-37879 37096 37880-37927 23544 37928-37952 26163 37953-38130 27510 38131 37580 38132-38134 27157 38135 27159 38136 29247 38137-38138 27522 38139-38169 23001-23006 38170-38171 23009 38172-38175 23014 38176-38177 23017 38178-38334 23422 38335-38336 29528 30799 29530-29531 38337 29533 38338-38387 23333 38388-38389 23336 38390-38392 23286 38393-38472 27536 38473-38474 27539 38475-38483 30804 38484-38485 30807 38486-38501 28412 38502-38503 28415 38504 28417-28421 38505-38564 25575 38565-38566 25578 38567-38572 23755 38573-38574 25588 38575-38577 25109 38578-38690 25485 38691-38693 25489 38694-38695 24105 38696-38701 36752 38702-38703 23333 38704-38729 29232 38730-38731 29235 38732-38733 29238 38734-38811 25120 38812-38917 27088 38918-38919 27091-27092 38920-38924 27098 38925-38926 27101-27122 38927-38930 38499 38931-38937 37228 38938 26745 38939-38940 36741-36743 25485-25489 38941-38994 27201-27203 38995-38996 27206 38997-38998 27209 38999 27211 39000-39001 27214 39002-39003 27217 39004-39008 27223 39009 27225-27227 39010 27229-27247 39011 27249-27271 39012-39056 36910 39057-39089 29029 39090-39092 21331 39093-39094 35711 39095-39125 31142 39126-39139 21036 39140-39141 21039-21040 39142-39144 21044 39145-39208 26437 39209-39210 36384 39211-39219 36394 39220-39242 26558 39243-39244 26561 39245-39246 29931 39247-39248 38842 39249-39413 23117-23118 39414 23120 39415-39583 37692 39584-39586 23527-23531 39587-39688 30486-30491 39689-39690 30494 39691-39694 30499 39695-39696 30502 39697-39781 22507 39782-39846 39233 39847-39926 23544 39927-39928 26922 39929-39930 27053 39931-39936 25575 39937-39938 25578 39939-39941 38570 39942-39943 25585 39944-39945 25588 39946-39948 25109 39949-39953 25598 39954-39955 23880 39956-39998 26225 39999-40001 25595 39952 40002 25598 40003-40042 25954 40043-40044 26564 40045 40047-40048 29167 40049-40051 37884 40052-40079 22341 40080 23546 26922 40081-40082 27053 40083-40089 21031-21036 40090-40091 21039-21042 39144 21044 39145-39146 40092-40162 23530 40163-40165 23534 40166 26914 26341 26915 40167-40228 23907 40229-40230 23910 40231-40233 25944 40234-40287 24846 40288-40293 22507 40294-40298 27074 40299-40377 37096 40378-40419 38764-38765 40420 38767-38769 40421 38771-38777 40422-40479 37086 40480-40481 37089 40482-40487 22629 40488-40489 24726 40490-40491 24729 40492-40558 37230 40559-40560 24096 40561-40563 23263 40564-40616 24726 40617-40618 24729 40619-40621 27151 40622-40625 38398-38415 40626-40699 26437 40700-40701 36384 40702-40704 39214 40705-40709 36394 40710-40712 39223 40713-40714 39226 40715-40723 24187 40724 37343 40725-40885 30628 40886-40916 26558 40917-40919 29929 40920-40956 26312 26477-26478 26315 26479-26481 26319 40957-41033 23878-23888 41034 23890-23899 41035 23901-23904 41036-41037 23907-23911 41038-41039 23914 41040-41041 23917-23922 41042-41054 39076 41055-41056 39079 41057-41187 28978 41188-41189 28981 41190-41191 28984 41192-41288 22341 41289-41290 26922 41291-41292 27053 41293-41298 25575 41299-41300 25578 41301-41303 38570 41304-41429 25824 41430-41439 41080-41081 41440-41533 30488 41534-41536 39689-39690 30494 41537-41538 39693 41539-41620 25944 41621-41622 25947 41623-41625 26558 41626-41627 25954 41628-41629 25957 41630-41632 26568 41633-41862 23776 41863-41864 23779 41865-41866 23782 41867-41868 23785 41869-41895 30799 41896 23428 41897-41898 30803-30808 41899-41903 38492 41904-41905 38495 41906-42192 0 0 0 42193-42305 29085-29089 42306 29091 42307-42317 24435-24438 42318-42323 24445-24447 42324-42335 24460-24462 42336-42341 24469-24471 42342-42387 29019 42388-42390 20801 42391-42399 38953-38954 42400 38956-38958 42401 38960-38966 42402-42441 29065 42442-42443 29068 42444-42445 29071 42446-42455 38491-38492 42456-42457 38495 42458-42459 38498-38500 42460 28412-28415 42461 28417-28421 42462-42463 38507 42464-42516 24855-24859 42517-42592 39840 42593-42594 39229 42595-42602 36580-36581 42603 36583 42604-42607 37759 42608-42637 26901 42638-42676 23162 42677-42685 38128 42686-42688 39490 42689-42720 35206 42721-42722 35209 42723-42750 36623-36624 42751-42791 28212-28214 42792 28216 42793-42794 28219 42795-42796 28222-28223 42797-42798 38023 42799 38025 42800-42942 27157 42943-42945 23383-23384 42946 23386-23387 42947-42949 25780-25781 42950 25783 42951-43018 37692 43019-43021 23527 43022-43023 23530 43024-43032 23540 43033-43090 21819-21820 43091 21822-21823 43092 21825 43093-43334 39223 43335-43336 39226 43337-43339 23914 43340-43341 42598 43342-43343 39236 43344-43345 37667 43346-43454 42721 43455-43618 43020 43619 23527 43620-43621 23530 43622-43624 37918 43625-43626 43030 43627-43628 23540 43629-43631 23544 43632-43643 39877-39879 43644 39881-39882 43645 39884-39885 43646 39887-39893 43647-43649 39897-39899 43650 39901-39906 43651 39908-39909 43652 39911-39912 43653 39914-39923 43654-43655 38836 43656 23914 43657-43658 23917 43659-43660 23920 43661-43714 26344 43715-43717 26348 43718-43735 37239-37240 43736-43738 37244 43739 43741-43815 38128-38130 27510 37579-37580 27513 43816 37582 43817-43819 38136 29247 38137-38138 27522 38139 43820-43821 27526 43822-43837 22710 43838-43839 22713-22714 43840-44022 23425 29529 44023 29531-29532 44024 29534 44025-44031 24612-24634 44032-44033 24637 22898 24638-24645 44034-44035 24648 44036 24650-24651 44037-44038 24654-24655 44039-44040 24658-24667 44041-44046 24674 44047 24676-24677 44048 24679-24680 44049 24682-24698 44050 24700-24704 44051 24706-24722 44052-44055 24842 44056-44058 24846 44059-44063 26344 44064-44066 26348 44067-44068 43720 44069-44084 38570 44085-44089 26638 44090-44372 0 0 0 44373-44386 0 0 0 44387-44424 28127 44425-44454 27880-27884 44455-44539 25662-25672 44540-44737 28625-28626 44738 28628 44739-44740 28631 44741-44805 31323-31329 44806-45014
+/odm/lib64/camera/com.qti.tuned.semco_s5k3m5.bin 45015-45131 0 45132 0 0 45133-45139 0 45140 0 0 0 45141 45143-45147 0 0 45148-45154 0 0 0 45155-45157 0 0 45158-45178 0 0 0 45179-45197 0 0 0 45198-45202 0 0 0 45203-45232 20945 45233-45234 20948 45235 20950 45236-45287 25228 45288-45329 33076 45330-45446 29609 45447-45487 33810 45488-45492 32892 45493-45495 20952 45496-45613 32597 45614-45679 32664 45680-45681 21008 45682 32668 45683-45709 32256 45710-45712 32260 45713-45714 32700 45715-45720 32707 45721-45722 32710 45723-45770 33392 45771-45780 33403 45781-45783 33407-33408 45784-45785 33411-33419 45786-45789 33424 45790-45792 33428-33429 45793-45794 33432 45795 33434-33440 45796-45798 33444 45799-45800 33447-33448 45801-45802 21843 45803 33452-33454 45804 32889 45805-45807 33459 45808-45868 32024 45869-45870 32290 45871-45872 32293 45873-45875 32297 45876-45964 45323 45965-45971 45330 45972-46043 32300 46044-46045 32303 46046-46074 21008 46075-46077 21012 46078-46089 45862 46090-46136 33694 46137-46188 33747 46189-46190 33750 46191-46196 33757 46197-46199 33761 46200-46240 32181 46241-46274 32027 46275-46276 32030 46277 32032 46278-46294 34829 46295-46334 33959 46335-46370 33033 46371-46372 33036 46373-46375 20502 46376-46582 0 0 0 46583-46610 20948 46611-46613 20952 46614-46615 45498 46616-46652 33803 46653-46654 33806-33807 46655-46746 32703 46747-46755 32479 46756-46799 33953 46800-46802 22629 33957 46803-46897 34052 46898-46905 33195 46906-46920 25733 46921-47099 45717 47100-47102 32707 47103-47249 32030 47250-47252 46279-46280 47253-47357 46946 47358-47531
+/odm/lib64/camera/com.qti.tuned.sunny_imx471.bin 47532-47585 0 47586 0 0 47587-47595 0 0 0 47596-47620 31880-31881 0 0 47622-47625 36752 47626-47643 0 0 0 47644-47645 0 0 47646-47656 0 0 0 47657-47725 39951 47726-47734 21012 47735-47845 21796 47846-47936 26704 47937-48028 25739 48029-48091 24743 48092-48100 38499 48101-48304 39464 48305-48306 39467 48307-48496
+/odm/lib64/camera/fdconfigpreview.bin 48497
+/odm/lib64/camera/fdconfigpreviewlite.bin 48497
+/odm/lib64/camera/fdconfigvideo.bin 48497
+/odm/lib64/camera/fdconfigvideolite.bin 48497
+/odm/lib64/ese_client.so 48498-48511
+/odm/lib64/ese_spi_nxp_nq330.so 48512-48544
+/odm/lib64/hal_libnfc.so 48545-48615
+/odm/lib64/hw/fingerprint.18821_goodix9508_G2_4.default.so 48616-48619
+/odm/lib64/hw/fingerprint.18857_goodix9508_G2_4.default.so 48620 48617 48621-48622
+/odm/lib64/hw/fingerprint.18865_goodix9558_G3.default.so 48623 48617 48624-48625
+/odm/lib64/hw/fingerprint.19805_goodix9638_G6_3.default.so 48626-48629
+/odm/lib64/hw/fingerprint.19805_goodix9678_G6_7.default.so 48630 48627 48631-48632
+/odm/lib64/hw/fingerprint.19811_goodix9638_G6.default.so 48633-48637
+/odm/lib64/hw/fingerprint.20801_goodix9558_G3.default.so 48638 48617 48639-48640
+/odm/lib64/hw/fingerprint.20828_goodix9678.default.so 48641-48644
+/odm/lib64/hw/fingerprint.goodix9608_G5.default.so 48645-48647
+/odm/lib64/hw/fingerprint.goodix9638_G6.default.so 48648-48650
+/odm/lib64/hw/vendor.oplus.hardware.engcamera@1.0-impl.so 48651-48659
+/odm/lib64/hw/vendor.oplus.hardware.orms.ormsHalService@1.0-impl.so 48660-48675
+/odm/lib64/libaacvibrator.so 48676-48701
+/odm/lib64/libarcsoft_dualcam_bokeh_api.so 48702-48757
+/odm/lib64/libarcsoft_dualcam_refocus_left.so 48758-49159 0 49160-49224 49223 49225-49227 49223 49225-49226 49229 49226 49230-49254 0 49255-49371 49371 49371 49371 49371 49371-49526
+/odm/lib64/libarcsoft_dualcam_refocus_preview.so 49527-49820 49820-49822 49822 49822-49824 49824 49824 49824 49824 49824 49826-49827 49827 49827 49827 49827 49827 49827 49827 49827 49827 49827 49827 49827 49827 49827 49827-49829 49829 49829 49829 49829 49829 49829 49829 49829 49829 49829 49829 49829 49829 49829 49829 49829 49829 49829 49829-50165
+/odm/lib64/libarcsoft_dualcam_refocus_right.so 50166-50279 50278 50280-50282 50278 50280-50281 50284 50281 50285-50721 0 50722-50724 0 0 50725-50727 49371 49371 49371 49371 49371 50728-50729
+/odm/lib64/libarcsoft_dualcam_refocus_uw.so 50730-50747 48776 50748-51130 0 51131-51195 51194 51197-51199 51194 51197-51198 51200 51198 51201-51341 49370-49371 49371 49371 49371 49371 49371 51342 49373-49525 51343
+/odm/lib64/libaudioEngineerTest.so 51344-51357
+/odm/lib64/libavcodec.so 51358-53830
+/odm/lib64/libavformat.so 53831-54121
+/odm/lib64/libavutil.so 54122-54218
+/odm/lib64/libbsproxy.so 54219-54229
+/odm/lib64/libcdm_metrics_protos.so 54230-54278
+/odm/lib64/libcdm_protos.so 54279-54454
+/odm/lib64/libchrome.so 54455-54478 13857 54479-54760 54760-54766
+/odm/lib64/libdapparamstorage_v3_6.so 54767-54772 1023
+/odm/lib64/libdav1d.so.4 54773-54960
+/odm/lib64/libdeccfg_v3_6.so 54961-54974
+/odm/lib64/libdlbdsservice_v3_6.so 54975-55083
+/odm/lib64/libdpservice.so 55084-55094
+/odm/lib64/libffmpeg_utils.so 55095-55100
+/odm/lib64/libgf_hal_19805_G6_3_oplus.so 55101-55193
+/odm/lib64/libgf_hal_19805_G6_7_oplus.so 55194-55199 55107-55118 55200 55120 55201 55203-55273
+/odm/lib64/libgf_hal_19811_G6_oplus.so 55274-55358
+/odm/lib64/libgf_hal_20828_G6_7_oplus.so 55359-55450
+/odm/lib64/libgf_hal_G5_oplus.so 55451-55522
+/odm/lib64/libgf_hal_G6_oplus.so 55523-55607
+/odm/lib64/libgf_ud_hal_18821_G2_4_oplus.so 55608-55689
+/odm/lib64/libgf_ud_hal_18857_G2_4_oplus.so 55690-55772
+/odm/lib64/libgf_ud_hal_18865_G3_oplus.so 55773-55871
+/odm/lib64/libgf_ud_hal_20801_G3_oplus.so 55872-55962 55864 55963-55969
+/odm/lib64/libifaa_factory.so 55970-55972
+/odm/lib64/libmindroid-app.so 55973-55977
+/odm/lib64/libmindroid-framework.so 55978-56348
+/odm/lib64/liboemcrypto.so 56349-56394
+/odm/lib64/liboplus_service.so 56395-56401
+/odm/lib64/libormshalclient.so 56402-56408
+/odm/lib64/libpnscr2.so 56409-56458
+/odm/lib64/libqsee_keybox_ca.so 56459-56478
+/odm/lib64/libqti-radio-service.so 56479-56584
+/odm/lib64/libqti-subsys-service.so 56585-56591
+/odm/lib64/libqtigef.so 56592-56596
+/odm/lib64/libradio-service.so 56597-56647
+/odm/lib64/libradioapis.so 56648-56713 1023
+/odm/lib64/librfapis.so 56714-56739
+/odm/lib64/librpmbengclient.so 56740-56742
+/odm/lib64/libstfaceunlockocl.so 56743-65535 65569-66628 0 0 66629-66630 0 66631-66633 0 0 0 0 0 0 0 0 0 0 0 0 0 66634 66636 0 0 0 0 0 0 0 0 0 0 0 0 66637-70415
+/odm/lib64/libsubsys-service.so 70416-70426
+/odm/lib64/libswresample.so 70427-70447
+/odm/lib64/libswscale.so 70448-70559
+/odm/lib64/libvl53l1_daemon.so 70560-70570
+/odm/lib64/libwvhidl.so 70571-70593 13857 70594-71214
+/odm/lib64/ls_client.so 71215-71226
+/odm/lib64/mediadrm/libwvdrmengine.so 71228-71840
+/odm/lib64/nfc_nci.pn54x.default.so 71841-71904 0 71905 0 71906-71912 1023
+/odm/lib64/oplus.sensors.ssc.so 71913-71926
+/odm/lib64/sensors.hal.tof.so 71927-71934
+/odm/lib64/soundfx/libhwdap_v3_6.so 71936-71961
+/odm/lib64/soundfx/libswdap_v3_6.so 71962-72466
+/odm/lib64/vendor.aac.hardware.richtap.vibrator-V1-ndk_platform.so 72467-72481
+/odm/lib64/vendor.dolby_v3_6.hardware.dms360@2.0-impl.so 72482-72492
+/odm/lib64/vendor.dolby_v3_6.hardware.dms360@2.0.so 72493-72557
+/odm/lib64/vendor.nxp.eventprocessor@1.0.so 72558-72576
+/odm/lib64/vendor.nxp.nxpnfc@1.0.so 72577-72595
+/odm/lib64/vendor.nxpnq330.nxpese@1.0.so 72596-72614
+/odm/lib64/vendor.oneplus.faceunlock.hal@2.0.so 72615-72641
+/odm/lib64/vendor.oplus.hardware.appradio@1.0.so 72642-72688
+/odm/lib64/vendor.oplus.hardware.biometrics.face@1.0.so 72689-72743
+/odm/lib64/vendor.oplus.hardware.biometrics.fingerprint@2.1.so 72744-72783
+/odm/lib64/vendor.oplus.hardware.biometrics.fingerprintpay@1.0.so 72784-72823
+/odm/lib64/vendor.oplus.hardware.charger@1.0.so 72824-72896
+/odm/lib64/vendor.oplus.hardware.commondcs@1.0.so 72897-72915
+/odm/lib64/vendor.oplus.hardware.cryptoeng@1.0.so 72916-72934
+/odm/lib64/vendor.oplus.hardware.displaypanelfeature@1.0.so 72935-72955
+/odm/lib64/vendor.oplus.hardware.engcamera@1.0.so 72956-72991
+/odm/lib64/vendor.oplus.hardware.engineer@1.0.so 72992-73052
+/odm/lib64/vendor.oplus.hardware.felica@1.0-impl.so 73053-73057
+/odm/lib64/vendor.oplus.hardware.felica@1.0.so 73058-73084
+/odm/lib64/vendor.oplus.hardware.ims@1.0.so 73085-73125
+/odm/lib64/vendor.oplus.hardware.lmvibrator@1.0.so 73126-73148
+/odm/lib64/vendor.oplus.hardware.misc@1.0.so 73149-73169
+/odm/lib64/vendor.oplus.hardware.mmdisplayfeature@1.0.so 73170-73189
+/odm/lib64/vendor.oplus.hardware.motorcontrol@1.0.so 73190-73211
+/odm/lib64/vendor.oplus.hardware.nfc@1.0.so 73212-73230
+/odm/lib64/vendor.oplus.hardware.oplusSensor@1.0.so 73231-73256
+/odm/lib64/vendor.oplus.hardware.orms.ormsHalService@1.0.so 73257-73302
+/odm/lib64/vendor.oplus.hardware.orms@1.0.so 73303-73323
+/odm/lib64/vendor.oplus.hardware.performance@1.0.so 73324-73419
+/odm/lib64/vendor.oplus.hardware.radio@1.0.so 73420-73530
+/odm/lib64/vendor.oplus.hardware.stability.oplus_project@1.0.so 73531-73571
+/odm/lib64/vendor.oplus.hardware.subsys@1.0.so 73572-73610
+/odm/lib64/vendor.oplus.hardware.subsys_radio@1.0.so 73611-73891
+/odm/lib64/vendor.oplus.hardware.thermalmntcfg@1.0.so 73893-73913
+/odm/lib64/vendor.oplus.hardware.touch@1.0.so 73914-73934
+/odm/lib64/vendor.oplus.hardware.transfer@1.0.so 73935-73962
+/odm/lib64/vendor.oplus.hardware.transmessage@1.0.so 73963-73985
+/odm/lib64/vendor.oplus.hardware.wifi.powersystem@1.0.so 73986-74021
+/odm/lib64/vendor.oplus.hardware.wifi.supplicant@2.0.so 74022-74123
+/odm/lib64/vendor.oplus.hardware.wifi@1.1.so 74124-74175
+/odm/overlay/CarrierConfigOverlay.18815.apk 74177-74183
+/odm/overlay/android_framework_res_overlay.audio.product.18815.apk 74184-74186
+/odm/overlay/android_framework_res_overlay.display.product.18815.apk 74187-74189
+/odm/overlay/oplus_framework_res_overlay.camera.product.guacamole.apk 74190-74193
+/odm/overlay/oplus_framework_res_overlay.display.product.18815.apk 74194-74197
+/odm/vendor/etc/wifi/WCNSS_qcom_cfg.ini 74202-74205
+/odm/vendor/firmware/alipay.b00 74207
+/odm/vendor/firmware/alipay.b01 74208-74209
+/odm/vendor/firmware/alipay.b02 74210-74219
+/odm/vendor/firmware/alipay.b03 74220
+/odm/vendor/firmware/alipay.b04 74221
+/odm/vendor/firmware/alipay.b05 74222
+/odm/vendor/firmware/alipay.b06 74223
+/odm/vendor/firmware/alipay.b07 74224-74225
+/odm/vendor/firmware/alipay.mdt 74226-74227
+/odm/vendor/firmware/cryptoeng.b00 74228
+/odm/vendor/firmware/cryptoeng.b01 74229 74209
+/odm/vendor/firmware/cryptoeng.b02 74230-74252
+/odm/vendor/firmware/cryptoeng.b03 74253
+/odm/vendor/firmware/cryptoeng.b04 74254-74255
+/odm/vendor/firmware/cryptoeng.b05 74256
+/odm/vendor/firmware/cryptoeng.b06 74257
+/odm/vendor/firmware/cryptoeng.b07 74258-74263
+/odm/vendor/firmware/cryptoeng.mdt 74264 74227
+/odm/vendor/firmware/gfp9508.b00 74265
+/odm/vendor/firmware/gfp9508.b01 74266 74209
+/odm/vendor/firmware/gfp9508.b02 74267-74806 74775-74806 74775-74805 74807-75001
+/odm/vendor/firmware/gfp9508.b03 75002
+/odm/vendor/firmware/gfp9508.b04 75003-75067 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 75068-75072
+/odm/vendor/firmware/gfp9508.b05 75073
+/odm/vendor/firmware/gfp9508.b06 75074
+/odm/vendor/firmware/gfp9508.b07 75075-75099
+/odm/vendor/firmware/gfp9508.mdt 75100-75101
+/odm/vendor/firmware/gfp9558.b00 75102
+/odm/vendor/firmware/gfp9558.b01 75103 74209
+/odm/vendor/firmware/gfp9558.b02 75104-75865 75834-75865 75834-75864 75866-76059
+/odm/vendor/firmware/gfp9558.b03 76060
+/odm/vendor/firmware/gfp9558.b04 76061-76127 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 76128-76134
+/odm/vendor/firmware/gfp9558.b05 76135
+/odm/vendor/firmware/gfp9558.b06 76136
+/odm/vendor/firmware/gfp9558.b07 76137-76166
+/odm/vendor/firmware/gfp9558.mdt 76167 75101
+/odm/vendor/firmware/gfp9608.b00 76168
+/odm/vendor/firmware/gfp9608.b01 76169 74209
+/odm/vendor/firmware/gfp9608.b02 76170-76639 76608-76639 76608-76638 76640-76840 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 76841 76843-76896 76865-76896 76865-76895 76897-77119
+/odm/vendor/firmware/gfp9608.b03 77120
+/odm/vendor/firmware/gfp9608.b04 77121-77123 0 77124-77133 0 0 77134-77139 0 0 77140-77145 0 0 77146 77148-77181
+/odm/vendor/firmware/gfp9608.b05 77182
+/odm/vendor/firmware/gfp9608.b06 77183
+/odm/vendor/firmware/gfp9608.b07 77184-77200
+/odm/vendor/firmware/gfp9608.mdt 77201 74227
+/odm/vendor/firmware/teemodel 77202-81778
+/odm/vendor/firmware_mnt/faceapp.b00 81780
+/odm/vendor/firmware_mnt/faceapp.b01 81781 74209
+/odm/vendor/firmware_mnt/faceapp.b02 81782-81784
+/odm/vendor/firmware_mnt/faceapp.b03 81785
+/odm/vendor/firmware_mnt/faceapp.b04 81786
+/odm/vendor/firmware_mnt/faceapp.b05 81787
+/odm/vendor/firmware_mnt/faceapp.b06 81788
+/odm/vendor/firmware_mnt/faceapp.b07 81789
+/odm/vendor/firmware_mnt/faceapp.mdt 81790 74227
